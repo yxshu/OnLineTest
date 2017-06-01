@@ -33,3 +33,5 @@
 2017-05-24 16:34:11,781 [11] FATAL [application_end] [(null)] - 系统关闭。
 2017-05-24 16:34:27,149 [5] FATAL [application_star] [(null)] - 系统启动成功。
 2017-05-24 16:39:14,814 [12] FATAL [application_end] [(null)] - 系统关闭。
+2017-06-01 23:20:19,044 [5] FATAL [application_star] [(null)] - 系统启动成功。
+2017-06-01 23:23:27,602 [5] FATAL [application_end] [(null)] - 系统关闭。

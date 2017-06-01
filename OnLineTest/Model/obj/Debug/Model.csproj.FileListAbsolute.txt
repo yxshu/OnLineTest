@@ -25,3 +25,12 @@ C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\Model\obj\Debug\Model.dll
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\Model\obj\Debug\Model.pdb
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Model\bin\Debug\Model.XML
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Model\bin\Debug\Model.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Model\bin\Debug\Model.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Model\bin\Debug\log4net.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Model\bin\Debug\log4net.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Model\bin\Debug\log4net.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Model\obj\Debug\Model.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Model\obj\Debug\Model.pdb

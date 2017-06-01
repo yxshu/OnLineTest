@@ -35,3 +35,12 @@ System.Web.Caching.DatabaseNotEnabledForNotificationException: 没有为 SQL 缓存通
    在 System.Web.Caching.SqlCacheDependency..ctor(String databaseEntryName, String tableName)
    在 OnLineTest.BLL.common.initalSqlCacheDependency(String tablename) 位置 c:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\common.cs:行号 86
    在 OnLineTest.Web.MasterPage_logined.Page_Load(Object sender, EventArgs e) 位置 c:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTestWebSite\master\MasterPage-logined.master.cs:行号 53
+2017-06-01 23:20:51,265 [10] ERROR [Login] [(null)] - 检测用户是否存在或根据用户名得到用户实例类错误,尼玛，讲这么多干嘛——用户不存在。
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 OnLineTest.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DBUtility\DbHelperSQL.cs:行号 835
+   在 OnLineTest.DBUtility.DbHelperSQL.Exists(String strSql, Int32& getCount, SqlParameter[] cmdParms) 位置 c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DBUtility\DbHelperSQL.cs:行号 139
+   在 OnLineTest.DAL.UsersServers.Exists(String UserName, String MD5PassWord, Int32& getCount) 位置 c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DAL\UsersServers_Ext.cs:行号 81
+   在 OnLineTest.BLL.UsersManager.Exists(String UserName, String MD5PassWord, Int32& getCount) 位置 c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\UsersManager_Ext.cs:行号 19
+   在 Login.ProcessRequest(HttpContext context) 位置 c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTestWebSite\ashx\Login.ashx:行号 42
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20

@@ -141,3 +141,30 @@ C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\ConnectionS
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.csprojResolveAssemblyReference.cache
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.exe
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\ConnectionStringEncrypt.XML
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\ConnectionStringEncrypt.exe
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\ConnectionStringEncrypt.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\DAL.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\DBUtility.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\log4net.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\Lucene.Net.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\Model.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\Modules.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\PanGu.Lucene.Analyzer.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\PanGu.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\log4net.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\log4net.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\Lucene.Net.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\Lucene.Net.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\DAL.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\DAL.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\Model.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\Model.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\Modules.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\Modules.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\PanGu.Lucene.Analyzer.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\PanGu.Lucene.Analyzer.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\DBUtility.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.csprojResolveAssemblyReference.cache
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.exe
+C:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.pdb

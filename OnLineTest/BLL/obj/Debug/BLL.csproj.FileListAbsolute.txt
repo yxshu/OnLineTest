@@ -152,3 +152,37 @@ C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\obj\Debug\BLL.dll
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\obj\Debug\BLL.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\BLL.XML
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\BLL.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\BLL.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.exe
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\DAL.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\DBUtility.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\log4net.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\Lucene.Net.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\Model.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\Modules.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\MySql.Data.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\System.Data.SQLite.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\log4net.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\log4net.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\Lucene.Net.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\Lucene.Net.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\DAL.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\DAL.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\DBUtility.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\DBUtility.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\Model.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\Model.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\Modules.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\Modules.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.pdb
