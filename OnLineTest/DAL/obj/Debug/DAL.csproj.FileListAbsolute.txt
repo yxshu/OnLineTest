@@ -1,0 +1,89 @@
+D:\OnLineTest\OnLineTest\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\DAL.dll
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\DAL.pdb
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\DBUtility.dll
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\log4net.dll
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\Model.dll
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\MySql.Data.dll
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\System.Data.SQLite.dll
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\log4net.pdb
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\log4net.xml
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\DBUtility.pdb
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\Model.pdb
+D:\OnLineTest\OnLineTest\DAL\obj\Debug\DAL.dll
+D:\OnLineTest\OnLineTest\DAL\obj\Debug\DAL.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\bin\Debug\DAL.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\bin\Debug\DAL.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\bin\Debug\DBUtility.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\bin\Debug\log4net.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\bin\Debug\Model.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\bin\Debug\MySql.Data.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\bin\Debug\System.Data.SQLite.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\bin\Debug\log4net.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\bin\Debug\log4net.xml
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\bin\Debug\DBUtility.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\bin\Debug\Model.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\obj\Debug\DAL.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\DAL\obj\Debug\DAL.pdb
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DAL.dll
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DAL.pdb
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DBUtility.dll
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\log4net.dll
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Model.dll
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\MySql.Data.dll
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\System.Data.SQLite.dll
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\log4net.pdb
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\log4net.xml
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DBUtility.pdb
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Model.pdb
+D:\OnLineTest FOR VSN\OnLineTest\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\OnLineTest FOR VSN\OnLineTest\DAL\obj\Debug\DAL.dll
+D:\OnLineTest FOR VSN\OnLineTest\DAL\obj\Debug\DAL.pdb
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DAL.XML
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DBUtility.xml
+D:\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Model.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DAL.XML
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DAL.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DAL.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DBUtility.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\log4net.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Model.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\MySql.Data.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\System.Data.SQLite.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\log4net.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\log4net.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DBUtility.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DBUtility.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Model.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Model.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\obj\Debug\DAL.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\DAL\obj\Debug\DAL.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DAL.XML
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DAL.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DAL.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DBUtility.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\log4net.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Model.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\MySql.Data.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\System.Data.SQLite.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\log4net.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\log4net.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DBUtility.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\DBUtility.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Model.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\bin\Debug\Model.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\obj\Debug\DAL.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\DAL\obj\Debug\DAL.pdb

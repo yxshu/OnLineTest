@@ -1,0 +1,72 @@
+﻿/*第一行，新增部分*/
+#column_groupid_rankid_columnnum_1 select, #column_groupid_rankid_columnnum_2 select, #column_groupid_rankid_columnnum_3 select {
+    width: 22%;
+}
+
+#column_groupid_rankid_columnnum_4 {
+        position:relative;
+        left:20px;
+}
+/*新增按钮*/
+#add {
+
+    color: blue;
+    cursor: pointer;
+}
+
+/*群组*/
+.group {
+    width: 100%;
+    text-align: center;
+    border: solid 1px #DDD;
+    margin-top: 40px;
+}
+
+/*其中第一行距离减少*/
+#groupid {
+margin-top:20px;
+}
+
+/*等级*/
+.rank {
+    margin:10px 5px;
+    padding: 10px;
+    border: solid 1px #DDD;
+    text-align:left;
+}
+
+/*其中第一行居中*/
+#rankid {
+text-align:center;
+}
+
+/*群组标签和等级标签，共同的地方*/
+.grouplab, .ranklab {
+    width: 100px;
+    top: -10px;
+    position: relative;
+    background-color: white;
+    color: #999999;
+    text-align:center;
+}
+
+/*群组标签*/
+.grouplab {
+    left: 40%;
+}
+
+/*等级标签*/
+.ranklab {
+    top:-20px;
+    left: 5%;
+}
+
+/*每一个权限*/
+.column {
+    height: 100px;
+    width: 154px;
+    display: inline-block;
+    border:solid 1px #DDD;
+    line-height: 100px;
+    text-align:center;
+}

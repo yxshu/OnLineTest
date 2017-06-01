@@ -1,0 +1,341 @@
+﻿
+/*class，三个内容框的div*/
+.MainContent {
+    width: 100%;
+    margin-bottom: 10px;
+    border: solid 1px #DDD;
+    background-color: #FFF;
+    min-height: 231px;
+}
+/*载入画面*/
+.loading {
+    margin-top: 90px;
+}
+
+    .loading img {
+        vertical-align: middle;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        border: none;
+    }
+
+    .loading a {
+    }
+
+/*账户信息ID*/
+#UserInfo {
+}
+/*帐户信息第一行公共属性*/
+.UserInfo_Row1 {
+    float: left;
+    border-right: solid 1px #DDD;
+    padding: 10px;
+    text-align: left;
+    min-height: 211px;
+}
+/*关于更多*/
+.more {
+    text-align: right;
+    color: green;
+}
+/*第一行第一列 财富值*/
+#UserScore {
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+/*第一列第一小行*/
+#caifuzhi {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 120%;
+}
+
+#Score {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: xx-large;
+    font-weight: 700;
+    color: #ff9924;
+}
+/*第一列第二小行*/
+#detail {
+    color: GrayText;
+    text-align: right;
+    font-size: 11px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#shouru {
+    margin-right: 20px;
+}
+/*第一列第三小行*/
+#other {
+    color: GrayText;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+    #other label {
+        padding-right: 11px;
+    }
+/*第一行第二列 距下个等级*/
+#NextRank {
+    width: 14%;
+}
+
+.sec_col_title {
+    text-align: left;
+    font-size: 11px;
+    font-weight: 200;
+    color: GrayText;
+    margin-bottom: 6px;
+}
+
+.sec_col_content {
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+    .sec_col_content a {
+        font-size: medium;
+    }
+
+/*第一行第三列 站内信*/
+#Message {
+    width: 11%;
+}
+
+
+#newmessage_number {
+    text-align: center;
+    margin-top: 10px;
+}
+
+    #newmessage_number a {
+        font-size: 18px;
+        font-weight: 600;
+        color: #ff9924;
+    }
+
+#lab_weidu {
+    color: green;
+    font-size: x-small;
+    text-align: right;
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+
+.third_col {
+    margin-top: 3px;
+    color: GrayText;
+    overflow: hidden;
+}
+
+    .third_col a {
+        padding-left: 10px;
+    }
+
+#newmessage {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    #newmessage a {
+        color: #FF9924;
+        font-size: 20px;
+        font-weight: 500;
+    }
+/*第一行第四列 登录信息*/
+#LogLogin {
+    width: 14.8%;
+    border-right: none;
+}
+
+.logininfo {
+    color: GrayText;
+    margin-top: 7px;
+}
+
+    .logininfo a {
+        color: #ff9924;
+        padding-left: 5px;
+    }
+
+#logintime {
+    text-align: right;
+}
+/*第二行*/
+#LastOperation {
+    background-color: #EEE;
+    min-height: 100px;
+    border-bottom: none;
+}
+/*每一行记录*/
+.logtestitem {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #FFF;
+    border-bottom: 1px solid #DDD;
+}
+/*标题行*/
+.title {
+    background-color: #DDD;
+}
+
+#LastOperation tr td {
+    font-size: 12px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logteststarttime {
+    width: 10%;
+}
+
+.papercode {
+    width: 10%;
+}
+
+.chinesename {
+    width: 20%;
+}
+
+.subjectname {
+    width: 10%;
+}
+
+.logtestscore {
+    width: 5%;
+}
+
+.papercodetotalscore {
+    width: 5%;
+}
+
+.difficultyratio {
+    width: 5%;
+}
+
+.difficultydescrip {
+    width: 5%;
+}
+
+.usedteim {
+    width: 8%;
+}
+
+.timerange {
+    width: 5%;
+}
+
+
+/*第三行*/
+#PopularQuestion {
+    background-color: #EEE;
+    position: relative;
+}
+
+.question {
+    float: left;
+    margin-right: 8px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    width: 32%;
+    min-height: 200px;
+}
+
+.hidden {
+    display: none;
+}
+
+/*没有试题的时候显示一个提示标签*/
+#edit_link {
+    background-color: #FF9924;
+}
+
+#loadingfinish {
+    height: 200PX;
+    line-height: 200PX;
+}
+
+/*以下为试题部分的样式*/
+/*整个大的区域块*/
+.QuestionZone {
+    width: 250px;
+    border: 1px solid #DDD;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+}
+/*标题行*/
+.QuestionZoneTitle {
+    overflow: hidden;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+/*标题行的内容UL*/
+.QuestionZoneTitleContent {
+    color: GrayText;
+}
+
+    .QuestionZoneTitleContent li {
+        list-style-type: none;
+        float: left;
+        /*position:static;*/
+    }
+/*用户名前面的图片*/
+.UserImage {
+    width: 25px;
+    height: 25px;
+}
+
+.UserName {
+    margin-left: 5px;
+}
+/*第一行的上传时间*/
+.UpLoadTime {
+    margin-left: 10px;
+}
+
+/*试题题干*/
+.QuestionContent {
+    margin-bottom: 10px;
+}
+.ImageAddress {
+width:250px;
+}
+/*选项A*/
+.Answer {
+    padding-left: 10px;
+    margin-bottom: 3px;
+}
+/*参考答案四个字*/
+.LabCorrectAnswer {
+    color: GrayText;
+}
+/*参考答案*/
+.CorrectAnswer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+/*尾巴*/
+.Tail {
+    margin-bottom: 35px;
+}
+/*尾巴的内容Ul*/
+.tailcontent {
+}
+
+    .tailcontent li {
+        list-style-type: none;
+        float: left;
+        margin-left: 10px;
+        color: GrayText;
+    }

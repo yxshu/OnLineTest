@@ -1,0 +1,25 @@
+﻿body {
+}
+/*每一行*/
+.row {
+    width: 100%;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+/*标题区*/
+.title {
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+}
+/*内容区*/
+.content {
+    display: inline-block;
+    padding-left: 16px;
+    width: 68%;
+    text-align: left;
+}
+/*图片的最大宽度*/
+#oldimageaddress {
+    max-width: 80%;
+}

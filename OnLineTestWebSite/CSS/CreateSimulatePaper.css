@@ -1,0 +1,84 @@
+﻿body {
+}
+
+#form {
+    width: 100%;
+    border: solid 1px #FF9924;
+}
+
+    #form div {
+        /*text-align: center;*/
+    }
+
+        #form div label {
+        }
+
+        #form div select {
+            width: 400px;
+            height: 40px;
+            line-height: 36px;
+            padding: 8px 0px;
+        }
+
+#title { /*大标题行*/
+    background-color: #FF9924;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#subject { /*科目行*/
+}
+
+#papercode { /*适用对象行*/
+}
+
+#difficulty { /*难度行*/
+}
+
+#textbook { /*教材行*/
+}
+
+.DIVselect { /*select所在行的class*/
+    margin-top: 10px;
+}
+/*红色星星*/
+.star {
+    color: GrayText;
+    margin-left: 5px;
+}
+/*章节目录的大框框*/
+#DIVchapter {
+    margin-top: 10px;
+}
+/*章节内容标题行*/
+#title_chapter {
+    margin-bottom: 10px;
+    color: GrayText;
+}
+/*各章节class*/
+.chap {
+    /*border: solid 1px green;*/
+    text-align: left;
+    width: 500px;
+    line-height: 30px;
+    color: GrayText;
+}
+
+.tips {
+    color: red;
+}
+
+#sub { /*提交按钮*/
+    margin: 50px auto 20px auto;
+    line-height: 40px;
+    width: 100px;
+    font-size: larger;
+    background-color: #DDD;
+}
+/*给大章节额外添加的样式*/
+.index {
+    color: black;
+    font-weight: bold;
+}

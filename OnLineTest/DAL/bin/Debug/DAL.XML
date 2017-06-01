@@ -1,0 +1,1990 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DAL</name>
+    </assembly>
+    <members>
+        <member name="T:OnLineTest.DAL.AuthorityServers">
+            <summary>
+            数据访问类:AuthorityServers
+            </summary>
+            <summary>
+            数据访问类:AuthorityServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.Exists(System.String,System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.Add(OnLineTest.Model.Authority)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.Update(OnLineTest.Model.Authority)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.Delete(System.String,System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.GetModel(System.String)">
+            <summary>
+            根据处理页面获得权限实例
+            </summary>
+            <param name="AuthorityHandlerPage">处理权限的页面</param>
+            <returns>如果存在，则返回权限实例，否则返回NULL</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.GetModel(System.Int32,System.Nullable{System.Int32})">
+            <summary>
+            根据父权限ID和排序获得权限实例
+            </summary>
+            <param name="AuthorityHandlerPage">处理权限的页面</param>
+            <returns>如果存在，则返回权限实例，否则返回NULL</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.GetMinId">
+            <summary>
+            得到最小ID,如果不成功则返回-1
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.ExistsChild(System.Int32)">
+            <summary>
+            该记录是否存在子权限
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.Exists(System.Int32)">
+            <summary>
+            该记录是否存在子权限
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.AuthorityServers.OperateAuthoritybyTran(OnLineTest.Model.Authority,System.String,System.Int32@)">
+            <summary>
+            利用存储过程来处理Authority的增、删、改操作
+            model:add,delete,update
+            </summary>
+        </member>
+        <member name="T:OnLineTest.DAL.ChapterServers">
+            <summary>
+            数据访问类:ChapterServers
+            </summary>
+            <summary>
+            数据访问类:ChapterServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ChapterServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ChapterServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ChapterServers.Add(OnLineTest.Model.Chapter)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ChapterServers.Update(OnLineTest.Model.Chapter)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ChapterServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ChapterServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ChapterServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ChapterServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ChapterServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ChapterServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ChapterServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ChapterServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="T:OnLineTest.DAL.CommentServers">
+            <summary>
+            数据访问类:CommentServers
+            </summary>
+            <summary>
+            数据访问类:CommentServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.Add(OnLineTest.Model.Comment)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.Update(OnLineTest.Model.Comment)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.GetList(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            一个联合查询,根据用户ID取得用户所发表评论的前top行,并将外链实例化
+            </summary>
+            <param name="pagesize">每次取值的数目</param>
+            <param name="userid"></param>
+            <param name="step">页码值，注意，从0开始计算</param>
+            <returns></returns>
+        </member>
+        <member name="M:OnLineTest.DAL.CommentServers.GetListByQuestionId(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            一个联合查询,根据questionid取得关于某个试题的所有评论的前top行,并外外链实例化
+            </summary>
+            <param name="pagesize">每次取得的数目</param>
+            <param name="questionid">不说了</param>
+            <param name="pagenum">当前页码</param>
+            <returns>返回一个数据集,无值为null</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.Common.dr2model(System.Data.DataRow,System.Object)">
+            <summary>
+            用数据行的数据填充实体对象
+            </summary>
+            <param name="dr">数据行</param>
+            <param name="obj">实体对象</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.Common.dr2dictionary(System.Data.DataRow)">
+            <summary>
+            将datarow一行数据转化为一个字典对象
+            </summary>
+            <param name="dr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnLineTest.DAL.Common.ConvertDataReaderToDataSet(System.Data.SqlClient.SqlDataReader)">
+            <summary>
+            利用sqldatareader 填充dataset
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnLineTest.DAL.Common.ConvertDataReaderToDataTable(System.Data.SqlClient.SqlDataReader)">
+            <summary>
+            利用datareader填充datatable
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OnLineTest.DAL.DifficultyServers">
+            <summary>
+            数据访问类:DifficultyServers
+            </summary>
+            <summary>
+            数据访问类:DifficultyServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.DifficultyServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.DifficultyServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.DifficultyServers.Add(OnLineTest.Model.Difficulty)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.DifficultyServers.Update(OnLineTest.Model.Difficulty)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.DifficultyServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.DifficultyServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.DifficultyServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.DifficultyServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.DifficultyServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.DifficultyServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.DifficultyServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.DifficultyServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="T:OnLineTest.DAL.ExamZoneServers">
+            <summary>
+            数据访问类:ExamZoneServers
+            </summary>
+            <summary>
+            数据访问类:ExamZoneServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ExamZoneServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ExamZoneServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ExamZoneServers.Add(OnLineTest.Model.ExamZone)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ExamZoneServers.Update(OnLineTest.Model.ExamZone)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ExamZoneServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ExamZoneServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ExamZoneServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ExamZoneServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ExamZoneServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ExamZoneServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ExamZoneServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.ExamZoneServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="T:OnLineTest.DAL.LogLoginServers">
+            <summary>
+            数据访问类:LogLoginServers
+            </summary>
+            <summary>
+            数据访问类:LogLoginServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogLoginServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogLoginServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogLoginServers.Add(OnLineTest.Model.LogLogin)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogLoginServers.Update(OnLineTest.Model.LogLogin)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogLoginServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogLoginServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogLoginServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogLoginServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogLoginServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogLoginServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogLoginServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogLoginServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogLoginServers.GetCurrentLoglogin(System.Int32)">
+            <summary>
+            得到用户最后一次的登录信息
+            </summary>
+            <param name="userid"></param>
+            <returns>loglogin</returns>
+        </member>
+        <member name="T:OnLineTest.DAL.LogPracticeServers">
+            <summary>
+            数据访问类:LogPracticeServers
+            </summary>
+            <summary>
+            数据访问类:LogPracticeServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogPracticeServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogPracticeServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogPracticeServers.Add(OnLineTest.Model.LogPractice)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogPracticeServers.Update(OnLineTest.Model.LogPractice)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogPracticeServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogPracticeServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogPracticeServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogPracticeServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogPracticeServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogPracticeServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogPracticeServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogPracticeServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogPracticeServers.getLastModel(System.Int32,System.Int32)">
+            <summary>
+            根据给出的id,要求获取同一个用户的上一条记录
+            </summary>
+            <param name="Currentlogpracticeid">当前ID</param>
+            <param name="userid">用户ID</param>
+            <returns>返回当前用户的上一次记录</returns>
+        </member>
+        <member name="T:OnLineTest.DAL.LogTestQuestionServers">
+            <summary>
+            数据访问类:LogTestQuestionServers
+            </summary>
+            <summary>
+            数据访问类:LogTestQuestionServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestQuestionServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestQuestionServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestQuestionServers.Add(OnLineTest.Model.LogTestQuestion)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestQuestionServers.Update(OnLineTest.Model.LogTestQuestion)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestQuestionServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestQuestionServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestQuestionServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestQuestionServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestQuestionServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestQuestionServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestQuestionServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestQuestionServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="T:OnLineTest.DAL.LogTestServers">
+            <summary>
+            数据访问类:LogTestServers
+            </summary>
+            <summary>
+            数据访问类:LogTestServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.Add(OnLineTest.Model.LogTest)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.Update(OnLineTest.Model.LogTest)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.GetModels(System.Int32,System.String,System.Int32)">
+            <summary>
+            按要求返回多个实例对象
+            </summary>
+            <param name="num">返回的对象数量</param>
+            <param name="orderby">返回的是前几个对象，排序的原则</param>
+            <returns>返回前几条对象</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.LogTestServers.GetModelsbyJoin(System.Int32,System.String,System.Int32)">
+            <summary>
+            按要求查取一个logtest记录，其中所有的外键都实例化
+            </summary>
+            <param name="num">查询的条数</param>
+            <param name="orderby">排序的方式</param>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OnLineTest.DAL.Message_tableServers">
+            <summary>
+            数据访问类:Message_tableServers
+            </summary>
+            <summary>
+            数据访问类:Message_tableServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.Add(OnLineTest.Model.Message_table)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.Update(OnLineTest.Model.Message_table)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.sendNum(System.Int32)">
+            <summary>
+            查询某个id的发信数量
+            </summary>
+            <param name="userid">发件人</param>
+            <returns>发信的数量</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.recerveNum(System.Int32)">
+            <summary>
+            收信数量
+            </summary>
+            <param name="userid">收件人</param>
+            <returns>收件数量</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.NotReadMessageNum(System.Int32)">
+            <summary>
+            未读信数量
+            </summary>
+            <param name="userid">收件人</param>
+            <returns>未读信数量</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.Message_tableServers.getReceiveList(System.Int32,System.Int32,System.Int32)">
+             <summary>
+            填充外链的方式获取数据集
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:OnLineTest.DAL.PaperCodesServers">
+            <summary>
+            数据访问类:PaperCodesServers
+            </summary>
+            <summary>
+            数据访问类:PaperCodesServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.Exists(System.Int32,System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.Add(OnLineTest.Model.PaperCodes)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.Update(OnLineTest.Model.PaperCodes)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.Delete(System.Int32,System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.GetPaperCodeAndInstantiation(System.String)">
+            <summary>
+            按strWhere的要求查询papercodes,并将其中的外链进行实例化
+            </summary>
+            <param name="strWhere">查询条件,也可以是排序如： order by chinesename</param>
+            <returns>返回dataset，如果没有值，则返回null</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.PaperCodesServers.GetModelListBySubjectId(System.Int32)">
+            <summary>
+            根据SubjectId查询相应的PaperCodes,并按papercodeid排序
+            </summary>
+            <param name="SubjectId"></param>
+            <returns>dataset</returns>
+        </member>
+        <member name="T:OnLineTest.DAL.PastExamPaperServers">
+            <summary>
+            数据访问类:PastExamPaperServers
+            </summary>
+            <summary>
+            数据访问类:PastExamPaperServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PastExamPaperServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PastExamPaperServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PastExamPaperServers.Add(OnLineTest.Model.PastExamPaper)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PastExamPaperServers.Update(OnLineTest.Model.PastExamPaper)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PastExamPaperServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PastExamPaperServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PastExamPaperServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PastExamPaperServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PastExamPaperServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PastExamPaperServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PastExamPaperServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.PastExamPaperServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="T:OnLineTest.DAL.QuestionServers">
+            <summary>
+            数据访问类:QuestionServers
+            </summary>
+            <summary>
+            数据访问类:QuestionServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.Add(OnLineTest.Model.Question)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.Update(OnLineTest.Model.Question)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.GetList(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            利用联合查询按要求查取question并将其中的外链实例化
+            其中获取的试题是用户上传的，已经审核通过的，没有被删除的数据
+            </summary>
+            <param name="pagesize">每次取的数量</param>
+            <param name="orderby">排序方式</param>
+            <param name="pagenum">页码值（每次取值从pagesize*pagenum的位置开始）</param>
+            <returns>返回查询到的dataset，如果没有值，则返回NULL</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.GetAllUpLoadedQuestionByPage(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取用户上传的所有试题
+            </summary>
+            <param name="pagesize">取的数量</param>
+            <param name="pagenum">页码值</param>
+            <param name="userid">用户ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.GetQuestionAndInstantiationById(System.Int32)">
+            <summary>
+            根据ID获取试题并实例化所有外链
+            </summary>
+            <param name="QuestionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.UpdataQuestionFinalVerifyByTransaction(System.Int32,System.Boolean,System.Int32)">
+            <summary>
+            利用事务更新试题的最终审核状态
+            其中一、更新Question表的状态
+                二、在Verify表中插入一条新的数据
+            </summary>
+            <param name="questionId">试题ID</param>
+            <param name="passable">审核的结果，是否通过</param>
+            <param name="userid">审核用户ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.CreateSimulatePaper(System.Int32,System.Collections.Generic.Dictionary{OnLineTest.Model.Chapter,System.Int32},System.Int32)">
+            <summary>
+            生成一个模拟试卷的试题
+            </summary>
+            <param name="textbookid">试卷适用的科目</param>
+            <param name="dic">一个字典，其中包括章节id和每个章节要选取的试题数量</param>
+            <param name="difficulty">难度系数</param>
+            <returns>返回一个有多个datatable的dataset</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.getQuestionByPapercodeidANDRand(System.Int32)">
+            <summary>
+            根据给定的papercodeid随机抽取一条记录的id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnLineTest.DAL.QuestionServers.handlerupORdown(System.Int32,System.Int32)">
+            <summary>
+            根据用户提交的upORdown以及QUESTIONID修改试题的顶或踩的值,upORdown=1为顶，upORdown=-1为踩
+            </summary>
+            <param name="questionid">试题id</param>
+            <param name="upORdown">顶或者踩</param>
+            <returns></returns>
+        </member>
+        <member name="T:OnLineTest.DAL.SubjectServers">
+            <summary>
+            数据访问类:SubjectServers
+            </summary>
+            <summary>
+            数据访问类:SubjectServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SubjectServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SubjectServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SubjectServers.Add(OnLineTest.Model.Subject)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SubjectServers.Update(OnLineTest.Model.Subject)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SubjectServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SubjectServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SubjectServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SubjectServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SubjectServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SubjectServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SubjectServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SubjectServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="T:OnLineTest.DAL.SuggestionKeywordServers">
+            <summary>
+            数据访问类:SuggestionKeywordServers
+            </summary>
+            <summary>
+            数据访问类:SuggestionKeywordServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.Add(OnLineTest.Model.SuggestionKeyword)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.Update(OnLineTest.Model.SuggestionKeyword)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据(升序)
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.GetList(System.Int32,System.String,System.String,System.String)">
+            <summary>
+            获得前几行数据(降序)
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.GetList(System.Int32,System.String,System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            获得前几行数据(降序)(带参数的)
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.SuggestionKeywordServers.Exists(System.String,System.Int32@)">
+            <summary>
+            根据SuggestionKeywords判断是否存在，如果存在则返回SuggestionKeywordsId
+            </summary>
+            <param name="SuggestionKeywords">用户搜索的关键词</param>
+            <param name="SuggestionKeywordsId">输出参数，如果存在，则返回id,否则返回-1</param>
+            <returns>true则存在，false则不存在</returns>
+        </member>
+        <member name="T:OnLineTest.DAL.TextBookServers">
+            <summary>
+            数据访问类:TextBookServers
+            </summary>
+            <summary>
+            数据访问类:TextBookServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.TextBookServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.TextBookServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.TextBookServers.Add(OnLineTest.Model.TextBook)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.TextBookServers.Update(OnLineTest.Model.TextBook)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.TextBookServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.TextBookServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.TextBookServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.TextBookServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.TextBookServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.TextBookServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.TextBookServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.TextBookServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="T:OnLineTest.DAL.UserAuthorityServers">
+            <summary>
+            数据访问类:UserAuthorityServers
+            </summary>
+            <summary>
+            数据访问类:UserAuthorityServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.Add(OnLineTest.Model.UserAuthority)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.Update(OnLineTest.Model.UserAuthority)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.Exists(OnLineTest.Model.Authority)">
+            <summary>
+            判断某项权限是否被引用
+            </summary>
+            <param name="authority"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnLineTest.DAL.UserAuthorityServers.GetListLeftOuterJoinAuthority(System.String)">
+            <summary>
+            获得用户权限列表并向右联合查询到对应的Authority
+            </summary>
+        </member>
+        <member name="T:OnLineTest.DAL.UserCreatePaperQuestioneServers">
+            <summary>
+            数据访问类:UserCreatePaperQuestioneServers
+            </summary>
+            <summary>
+            数据访问类:UserCreatePaperQuestioneServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperQuestioneServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperQuestioneServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperQuestioneServers.Add(OnLineTest.Model.UserCreatePaperQuestione)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperQuestioneServers.Update(OnLineTest.Model.UserCreatePaperQuestione)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperQuestioneServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperQuestioneServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperQuestioneServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperQuestioneServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperQuestioneServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperQuestioneServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperQuestioneServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperQuestioneServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="T:OnLineTest.DAL.UserCreatePaperServers">
+            <summary>
+            数据访问类:UserCreatePaperServers
+            </summary>
+            <summary>
+            数据访问类:UserCreatePaperServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperServers.Add(OnLineTest.Model.UserCreatePaper)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperServers.Update(OnLineTest.Model.UserCreatePaper)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserCreatePaperServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="T:OnLineTest.DAL.UserGroupServers">
+            <summary>
+            数据访问类:UserGroupServers
+            </summary>
+            <summary>
+            数据访问类:UserGroupServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.Exists(System.String,System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.Add(OnLineTest.Model.UserGroup)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.Update(OnLineTest.Model.UserGroup)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.Delete(System.String,System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.GetModel(System.String)">
+            <summary>
+            通过用户组的名称从数据库中查询一条记录并被保存为一个UserGroup对象
+            </summary>
+            <param name="usergroupname">用户组名称</param>
+            <returns>用户组对象</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserGroupServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="T:OnLineTest.DAL.UserRankServers">
+            <summary>
+            数据访问类:UserRankServers
+            </summary>
+            <summary>
+            数据访问类:UserRankServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.Exists(System.String,System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.Add(OnLineTest.Model.UserRank)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.Update(OnLineTest.Model.UserRank)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.Delete(System.String,System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.GetModel(OnLineTest.Model.Users)">
+            <summary>
+            根据用户的论坛分值得到用户的等级
+            </summary>
+            <param name="UserScore">用户论坛分值</param>
+            <returns>用户等级实例</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.GetNextRank(System.Int32)">
+            <summary>
+            得到当前用户的下一个等级
+            </summary>
+            <param name="userid">当前用户</param>
+            <returns>userrank</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.UserRankServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="T:OnLineTest.DAL.UserScoreDetailServers">
+            <summary>
+            数据访问类:UserScoreDetailServers
+            </summary>
+            <summary>
+            数据访问类:UserScoreDetailServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.Add(OnLineTest.Model.UserScoreDetail)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.Update(OnLineTest.Model.UserScoreDetail)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.shouru_total(System.Int32,System.Int32@)">
+            <summary>
+            计算某个用户收入总和
+            </summary>
+            <param name="userid">用户id</param>
+            <param name="num">总条数</param>
+            <returns>收入总和</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.zhichu_total(System.Int32,System.Int32@)">
+            <summary>
+            计算某个用户支出总和
+            </summary>
+            <param name="userid">用户id</param>
+            <param name="num">总条数</param>
+            <returns>支出总和</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.UserScoreDetailServers.userscoredetail(System.Int32)">
+            <summary>
+            根据用户id，联合查询某个用户的得分明细，其中包括三个模型：userscoredetail,userauthority,authoriy
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>返回一个联合查询结果的数据集</returns>
+        </member>
+        <member name="T:OnLineTest.DAL.UsersServers">
+            <summary>
+            数据访问类:UsersServers
+            </summary>
+            <summary>
+            数据访问类:UsersServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.Exists(System.String,System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.Add(OnLineTest.Model.Users)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.Update(OnLineTest.Model.Users)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.Delete(System.String,System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.GetModel(System.String)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.paiming(System.Int32)">
+            <summary>
+            得到当前用户的分数排名
+            </summary>
+            <param name="userid">当前用户</param>
+            <returns>排名</returns>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.Exists(System.String,System.String,System.Int32@)">
+            <summary>
+            是否存在该用户实例，并得到存在的数量
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.UsersServers.Exists(System.Int32)">
+            <summary>
+            根据userId判断用户是否存在
+            </summary>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OnLineTest.DAL.VerifyStatusServers">
+            <summary>
+            数据访问类:VerifyStatusServers
+            </summary>
+            <summary>
+            数据访问类:VerifyStatusServers
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.VerifyStatusServers.GetMaxId">
+            <summary>
+            得到最大ID
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.VerifyStatusServers.Exists(System.Int32)">
+            <summary>
+            是否存在该记录
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.VerifyStatusServers.Add(OnLineTest.Model.VerifyStatus)">
+            <summary>
+            增加一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.VerifyStatusServers.Update(OnLineTest.Model.VerifyStatus)">
+            <summary>
+            更新一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.VerifyStatusServers.Delete(System.Int32)">
+            <summary>
+            删除一条数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.VerifyStatusServers.DeleteList(System.String)">
+            <summary>
+            批量删除数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.VerifyStatusServers.GetModel(System.Int32)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.VerifyStatusServers.DataRowToModel(System.Data.DataRow)">
+            <summary>
+            得到一个对象实体
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.VerifyStatusServers.GetList(System.String)">
+            <summary>
+            获得数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.VerifyStatusServers.GetList(System.Int32,System.String,System.String)">
+            <summary>
+            获得前几行数据
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.VerifyStatusServers.GetRecordCount(System.String)">
+            <summary>
+            获取记录总数
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.VerifyStatusServers.GetListByPage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            分页获取数据列表
+            </summary>
+        </member>
+        <member name="M:OnLineTest.DAL.VerifyStatusServers.GetVerifyStatusAndInstantiationByQuestionId(System.Int32)">
+            <summary>
+            根据用户提供的QuestionId返回所有关于本试题的评论信息，并进行实例化
+            </summary>
+            <param name="QuestionId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

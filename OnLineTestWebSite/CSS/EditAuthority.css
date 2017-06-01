@@ -1,0 +1,99 @@
+﻿#rpheader /*头部*/
+{
+    background-color: #FF9924;
+    font-weight:bolder;
+    color: White;
+    font-size:xx-large;
+    text-align:center;
+}
+        #rpheader span,.childrow span,.parentrow span{/*每一列中共性的部分*/
+         overflow:hidden;
+         vertical-align:middle;
+         text-align:center;
+         height:50px;
+         line-height:50px;
+         display:inline-block;
+        }
+        /*下面是每一列中不同部分的样式*/
+        .id{ /*序*/
+        
+        width:5%;
+
+        }
+        .name{ /*名称*/
+        width:12%;
+        }
+        .handlerpage{/*处理页面*/
+        width:25%;
+
+        } 
+        #rpheaderrowpage{ /*其中标题行的字体不能变*/
+        color:White;
+        }  
+        .score{/*分值*/
+        width:5%;
+
+        }   
+        .remark{/*说明*/
+        width:25%;
+        overflow:hidden;
+        }
+        .ordernum{/*顺序*/
+        width:7%;
+        
+        }  
+        .edit{/*编辑*/
+        width:8%;
+        color:Blue;
+        cursor:pointer;
+        }  
+        #rpheaderrowedit /*其中标题行的字体不能变*/
+        {
+        color:White;
+        cursor:inherit;
+        }
+        .delete{/*删除*/
+        width:8%;
+        color:Blue;
+        cursor:pointer;
+        } 
+        #rpheaderrowdelete{ /*其中标题行的字体不能变*/
+        color:White;
+        cursor:inherit;
+        }
+
+.rpitem /*每组权限*/
+{
+ border:solid 1px #DDDDDD;
+ margin-top:10px;
+ text-align:center;
+
+}
+        /*每组中的父权限*/
+        .parentrow
+        {
+         background-color:#DEDEDE;
+        }
+        /*每组中的每组子权限*/
+        .Child
+        {
+         
+        }
+                /*每组中的每条子权限*/
+                .childrow{
+                  margin-bottom:5px;
+                 
+                }
+#rpfooter /*尾部*/
+{
+ margin:20px 0px;
+ background-color:#FF9924;
+ color:White;
+ font-size:larger;
+ font-weight:bolder;
+ height:40px;
+ line-height:40px;
+ text-align:center;
+}
+
+

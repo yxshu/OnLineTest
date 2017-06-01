@@ -1,0 +1,158 @@
+﻿body {
+    color: Gray;
+}
+
+#container {
+    width: 100%;
+}
+
+#header {
+    width: 1000px;
+    height: 150px;
+    background-image: url(../Images/logo.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+#Mbody {
+    /*这里面放宽的背景 宽1000以上，高400*/
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#minico {
+    width: 128px;
+    height: 20px;
+    position: relative;
+    top: 380px;
+}
+
+    #minico li {
+        width: 10px;
+        height: 10px;
+        background-color: #DDDDDD;
+        list-style-type: none;
+        margin-right: 5px;
+        float: left;
+        cursor: pointer;
+    }
+/*下面是登录部分的格式*/
+#content /*整个登录块*/ {
+    background-color: #444;
+    width: 300px;
+    position: relative;
+    padding: 10px 30px;
+    top: -360px;
+    left: 300px;
+    text-align: left;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+    border-radius: 10px;
+    border-top: solid 3px #FF9924;
+}
+
+#txtUser, #txtPassword, #txtValidCode, #denglu /*四行，分别是用户名，密码，验证码和登录*/ {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #fff;
+}
+
+#title /*标题部分，特殊的字体*/ {
+    width: 100%;
+    margin-top: 10px;
+    color: White;
+    font-weight: bolder;
+    font-size: 14px;
+    height: 20px;
+}
+
+.tubiao /*三个图标类*/ {
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+
+.shurukuan /*三个输入框类*/ {
+    border: none;
+    width: 260px;
+    height: 30px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #BBBBBB;
+    position: relative;
+    left: 16px;
+}
+
+#validcode /*验证码输入框,特殊的宽度*/ {
+    width: 200px;
+}
+
+#validmark /*验证码是否通过标记,一个不大于24*24的图标*/ {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: 0px;
+    top: 4px;
+}
+
+    #validmark img {
+        width: 16px;
+        height: 16px;
+    }
+
+#codeimg1 /*验证码图片,特殊的位置*/ {
+    height: 24px;
+    position: relative;
+    left: 5px;
+    top: 8px;
+}
+
+#errormessage { /*显示错误信息的地方*/
+    min-height: 20px;
+}
+
+#btnsubmit /*登录按钮，特殊的字体*/ {
+    border: none;
+    width: 100%;
+    height: 40px;
+    background-color: #FF9924;
+    cursor: pointer;
+    color: White;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#last /*最后一行*/ {
+    width: 100%;
+    margin-top: 5px;
+}
+
+#register /*最后一行的注册账号*/ {
+    color: #FF9924;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#lianxigly /*最后一行的联系管理员*/ {
+    position: relative;
+    left: 90px;
+}
+
+    #lianxigly a /*最后一行的联系管理员等链接*/ {
+        padding-left: 10px;
+    }
+
+#footer {
+    clear: both;
+    border-top: solid 2px #ff9924;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}

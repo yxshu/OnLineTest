@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Default.aspx" title="登录页面"  description="登录页面">
+        <siteMapNode url="register.aspx" title="注册页面"  description="注册页面" >
+        </siteMapNode>
+        <siteMapNode url="main.aspx" title="主页面"  description="主页面" >
+            <siteMapNode url="Search.aspx" title="站内搜索" description="站内搜索"></siteMapNode>
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,38 @@
+﻿*
+{
+    padding: 0px;
+    margin: 0px;
+    outline:none;
+    font-family: "Microsoft YaHei","微软雅黑",Helvetica,"黑体",Arial,Tahoma;
+    font-size: 13px;
+    text-decoration:none;
+}
+a:link /*超级链接的初始状态*/
+{
+    text-decoration: none;
+    color: inherit;/**/
+}
+a:hover /*链接鼠标放上去时悬停的状况*/
+{
+    /*text-decoration: underline;*/
+}
+a:visited /*访问过后的情况*/
+{
+    color:inherit;
+}
+
+a:active /*是鼠标点击时 */
+{
+
+}
+
+/*跨行标签的样式*/
+.CrossRowPromptTag {
+    border:solid 1px #FF9924;
+    margin:20px auto;
+    width:80%;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+}
+

@@ -1,0 +1,138 @@
+﻿body {
+}
+
+#content {
+    margin-bottom: 50px;
+}
+/*tab区域*/
+#tabzone {
+}
+/*标签样式*/
+.tab {
+    float: left;
+    border: 1px solid #FFF;
+    background-color: #DDD;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+/*标签被激活时的样式*/
+.tabactive {
+    background-color: white;
+    border: 1px solid #FF9924;
+    border-top: 3px solid #FF9924;
+    border-bottom: none;
+    z-index: 999;
+    position: relative;
+}
+/*内容区域*/
+#contentzone {
+}
+/*内容样式*/
+.content {
+    display: none;
+    padding-top: 40px;
+}
+/*内容被激活时的样式*/
+.contentactive {
+    display: block;
+    background-color: white;
+    border: 1px solid #FF9924;
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+    top: 42px;
+}
+
+#inputTo, #lastcontact, #inputContent {
+    width: 90%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+/*收件人输入框*/
+#inputTo {
+    line-height: 40px;
+    color: GrayText;
+}
+/*最近联系人*/
+#lastcontact {
+    color: GrayText;
+    margin-top: -18px;
+    margin-bottom: 30px;
+}
+/*最近联系人项*/
+.lastcontact_contact {
+    float: left;
+    border: 1px solid #DDD;
+    margin-right: 5px;
+    background-color: #DDD;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#firstcontactitem {
+    border: none;
+    background-color: #FF9924;
+}
+/*内容输入框*/
+#inputContent {
+    height: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*发送按钮*/
+#submit {
+    width: 100px;
+    height: 40px;
+    line-height: 40PX;
+    text-align: center;
+    margin-left: 70%;
+    margin-bottom: 30px;
+    border: 1px solid #FF9924;
+    cursor: pointer;
+    background-color: #FF9924;
+}
+
+/*发件箱和收件箱内的每一条记录样式*/
+.item {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 10px;
+    vertical-align: central;
+    cursor: pointer;
+}
+    /*每行记录下的每一列*/
+    .item div {
+        list-style: none;
+        float: left;
+    }
+/*第一列，作为标题*/
+.itemtitle {
+    background-color: GrayText;
+    color:white;
+    height:40px;
+    line-height:40px;
+}
+/*是否阅读，采用不同的样式*/
+.isRead {
+    font: bolder;
+}
+/*第一列，选择项*/
+.Chkbox {
+    width: 5%;
+}
+/*第二列，收、发件人*/
+.MessageFromORTo {
+    width: 15%;
+}
+/*第三列，站内信内容*/
+.MessageContent {
+    width: 60%;
+}
+/*第四列，发送时间*/
+.Sendtime {
+    width: 15%;
+}

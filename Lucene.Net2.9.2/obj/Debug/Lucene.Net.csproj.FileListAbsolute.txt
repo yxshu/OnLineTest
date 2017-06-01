@@ -1,0 +1,11 @@
+D:\OnLineTest FOR VSN\Lucene.Net2.9.2\bin\Debug\Lucene.Net.XML
+D:\OnLineTest FOR VSN\Lucene.Net2.9.2\bin\Debug\Lucene.Net.dll
+D:\OnLineTest FOR VSN\Lucene.Net2.9.2\bin\Debug\Lucene.Net.pdb
+D:\OnLineTest FOR VSN\Lucene.Net2.9.2\obj\Debug\Lucene.Net.csprojResolveAssemblyReference.cache
+D:\OnLineTest FOR VSN\Lucene.Net2.9.2\obj\Debug\Lucene.Net.dll
+D:\OnLineTest FOR VSN\Lucene.Net2.9.2\obj\Debug\Lucene.Net.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\Lucene.Net2.9.2\bin\Debug\Lucene.Net.XML
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\Lucene.Net2.9.2\bin\Debug\Lucene.Net.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\Lucene.Net2.9.2\bin\Debug\Lucene.Net.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\Lucene.Net2.9.2\obj\Debug\Lucene.Net.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\Lucene.Net2.9.2\obj\Debug\Lucene.Net.pdb

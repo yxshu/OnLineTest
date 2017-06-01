@@ -1,0 +1,166 @@
+﻿#reglogo {
+    width: 100%;
+}
+
+#regist {
+    color: #AAAAAA;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0px 0px 0px 20px;
+    line-height: 100%;
+    vertical-align: top;
+}
+
+#regmaincontent {
+    width: 100%;
+}
+
+#navigator {
+    height: 40px;
+    line-height: 40px;
+    margin: 30px;
+    color: #AAAAAA;
+    background-color: #EEEEEE;
+}
+
+.navmsg {
+    display: inline-block;
+    width: 32%;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#regnow {
+    color: #FF9924;
+}
+
+#regnowlab {
+    color: #FF9924;
+}
+
+.navlab {
+    display: inline-block;
+    width: 2%;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#regcontent {
+    float: left;
+    width: 60%;
+    display: inline-block;
+}
+
+.txtLab {
+    width: 21%;
+    display: inline-block;
+    margin: 5px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    color: #777777;
+}
+
+.txt {
+    width: 47%;
+    display: inline-block;
+    margin: 5px;
+    height: 40px;
+    line-height: 40px;
+}
+
+    .txt input {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        border: solid 1px #CCCCCC;
+    }
+/*对于每个项目的说明部分*/
+.descrip {
+    width: 25%;
+    display: inline-block;
+    margin: 5px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    vertical-align: middle;
+    color: #CCC;
+}
+/*密码强度行*/
+#KeyStrong {
+    height: 15px;
+    margin: 0px;
+    font-size: 12px;
+    line-height: 15px;
+}
+/*密码强度第一列*/
+#txtLabspecial {
+    display: inline-block;
+    width: 21%;
+}
+/*密码强度块*/
+#txtspecial {
+    display: inline-block;
+    width: 47%;
+}
+/*密码强度的三个标签*/
+#Stronger1 {
+    display: inline-block;
+    margin: 0px 1px;
+    background-color: #CCC;
+    /*color:green;*/
+    width: 31%;
+}
+
+#Stronger2 {
+    display: inline-block;
+    margin: 0px 1px;
+    background-color: #CCCCCC;
+    width: 31%;
+}
+
+#Stronger3 {
+    display: inline-block;
+    margin: 0px 1px;
+    background-color: #CCCCCC;
+    width: 31%;
+}
+
+#descripspecial {
+    display: inline-block;
+    width: 25%;
+}
+
+#ValidCode {
+    cursor: pointer;
+}
+
+#picture {
+    width: 40%;
+    display: inline-block;
+}
+
+#btnsubmit {
+    clear: both;
+    margin: 200px auto 0px auto;
+    background-color: #ccc;
+    cursor:pointer;
+}
+
+    #btnsubmit input {
+        width: 20%;
+        height: 40px;
+        color: White;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: @黑体;
+        line-height: 40px;
+        border: none;
+        background-color: #CCC;
+    }
+
+#agreement {
+    color: Blue;
+}

@@ -1,0 +1,27 @@
+D:\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\Modules.dll
+D:\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\Modules.pdb
+D:\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\log4net.dll
+D:\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\log4net.pdb
+D:\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\log4net.xml
+D:\OnLineTest FOR VSN\OnLineTest\Modules\obj\Debug\Modules.csprojResolveAssemblyReference.cache
+D:\OnLineTest FOR VSN\OnLineTest\Modules\obj\Debug\Modules.dll
+D:\OnLineTest FOR VSN\OnLineTest\Modules\obj\Debug\Modules.pdb
+D:\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\Modules.XML
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\Modules.XML
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\Modules.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\Modules.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\log4net.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\log4net.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\log4net.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\Modules\obj\Debug\Modules.csprojResolveAssemblyReference.cache
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\Modules\obj\Debug\Modules.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\Modules\obj\Debug\Modules.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\Modules.XML
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\Modules.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\Modules.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\log4net.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\log4net.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\Modules\bin\Debug\log4net.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\Modules\obj\Debug\Modules.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\Modules\obj\Debug\Modules.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\Modules\obj\Debug\Modules.csprojResolveAssemblyReference.cache

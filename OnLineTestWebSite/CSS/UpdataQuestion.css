@@ -1,0 +1,89 @@
+﻿body {
+}
+/*所有行的统一样式*/
+.row {
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
+/*第一行标题栏*/
+#remark {
+    height: 50px;
+    line-height: 50PX;
+    background-color: #FF9924;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-top:0px;
+}
+/*第一列*/
+.title {
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+    padding-right: 10px;
+}
+/*第二列*/
+.content {
+    display: inline-block;
+    padding: 8px;
+}
+/*第一列中关于试题和选项标签部分*/
+.QT {
+    position: relative;
+    top: -35px;
+}
+/*试题题目标签*/
+#lab_questiontitle {
+    top: -95px;
+}
+/*第一列中关于试题选项部分*/
+.QC {
+    width: 80%;
+    height: 80px;
+    line-height: 30px;
+}
+/*所有行中的select 控件*/
+.row select {
+    min-width: 100px;
+    text-align: center;
+}
+/*试题题目*/
+#QuestionTitle {
+    height: 200px;
+    width: 80%;
+    line-height: 30px;
+}
+
+#oldImageAddress {
+    max-width: 80%;
+}
+
+#ExamZone {
+}
+
+#PastExamPaperPeriodNo {
+}
+
+#PastExamQuestionId {
+}
+
+.newselect {
+    min-width: 100px;
+    text-align: center;
+    padding: 8px;
+    margin-left: 10px;
+}
+/*新增按钮行*/
+#updata {
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #DDD;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+}

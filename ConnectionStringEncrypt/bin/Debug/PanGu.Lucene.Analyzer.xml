@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PanGu.Lucene.Analyzer</name>
+    </assembly>
+    <members>
+        <member name="M:Lucene.Net.Analysis.PanGu.PanGuAnalyzer.#ctor(System.Boolean)">
+            <summary>
+            Return original string.
+            Does not use only segment
+            </summary>
+            <param name="originalResult"></param>
+        </member>
+        <member name="M:Lucene.Net.Analysis.PanGu.PanGuTokenizer.InitPanGuSegment(System.String)">
+            <summary>
+            Init PanGu Segment
+            </summary>
+            <param name="fileName">PanGu.xml file path</param>
+        </member>
+    </members>
+</doc>

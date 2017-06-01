@@ -1,0 +1,97 @@
+﻿body {
+}
+
+#verifystatusdiv { /*审核状态最外面的大框框*/
+    width: 100%;
+}
+
+.varifystatus { /*每一个审核状态的框框*/
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px 0px;
+    text-align: left;
+    height: 180px;
+}
+
+.verifyuser { /*每个审核状态内的审核用户信息*/
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 30px 10px;
+}
+
+    .verifyuser div {
+        margin-top: 2px;
+    }
+
+.userimage { /*用户图像div*/
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img-userimage { /*用户图像img*/
+    /*position: relative;
+    left: -40px;
+    z-index:-1;*/
+    width: 40px;
+    height: 40px;
+}
+
+.mast {
+    position: relative;
+    left: -40px;
+}
+
+.usergroupandrank { /*用户等级和组的框*/
+}
+
+.usergroup { /*用户组*/
+}
+
+.userrank { /*用户等级*/
+}
+
+.username { /*用户中文名*/
+}
+
+.sendmessage { /*发送站内信*/
+}
+
+.verifycontent { /*每个审核状态内的审核信息*/
+    margin-left: 23%;
+    padding-top: 20px;
+    width: 76%;
+}
+
+.verifyheader { /*审核内容部分头*/
+    color: GrayText;
+}
+
+.ispass { /*内容部分  是否通过*/
+    padding-left: 100px;
+    font-size: x-large;
+    line-height: 120px;
+    vertical-align: middle;
+}
+
+.verifyfooter { /*审核内容 部分尾*/
+    padding-left: 410px;
+    text-align: right;
+    color: GrayText;
+}
+
+.verifytime { /*审核时间*/
+    float: left;
+}
+
+.verifytimes { /*审核次数*/
+    padding-left: 150px;
+}
+
+.contentispass { /*审核结果为通过时，用绿色字表示*/
+    color: green;
+}
+
+.contentnopass { /*审核结果为未通过时，用#FF9924的字体颜色表示*/
+    color: red;
+}

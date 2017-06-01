@@ -1,0 +1,174 @@
+﻿body {
+}
+
+/*标题区*/
+#title {
+    height: 50px;
+    width: 100%;
+    background-color: #FF9924;
+}
+
+/*载入试题时的缓冲图像*/
+#loading img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+/*整个内容区*/
+#content {
+    border: solid 1px #FF9924;
+}
+
+/*试题DIV,包括左右箭头*/
+#question {
+    margin: 50px 0px 0px 0px;
+}
+/*左箭头*/
+.left {
+    text-align: left;
+    padding-left: 100px;
+}
+/*右箭头*/
+.right {
+    text-align: right;
+    margin-right: 70px;
+    line-height: 25px;
+}
+/*试题标题行*/
+#Qtitle {
+    margin-bottom: 20px;
+}
+/*试题行内的题号标签*/
+#Labquestion {
+    display: inline-block;
+}
+/*正确答案*/
+#correctanswer {
+    display: none;
+}
+
+#YLoganswer {
+    display: none;
+}
+/*供选答案类*/
+.answer {
+    line-height: 30px;
+    padding-left: 160px;
+}
+/*用户提交答案行*/
+#Qanswer {
+    margin: 20px 0px;
+    padding-right: 150px;
+    font-weight: 600;
+    color: green;
+}
+/*顶*/
+#up {
+    display: inline-block;
+}
+/*踩*/
+#down {
+    display: inline-block;
+}
+/*评论行*/
+#Qcomment {
+    margin-top: 20px;
+}
+/*评论框*/
+#comment {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    line-height: 25px;
+}
+/*提交评论按钮行*/
+#Qsubcomment {
+    text-align: right;
+    padding-right: 100px;
+    margin-bottom: 20px;
+}
+/*提交评论的按钮*/
+#Labsubcomment {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    border: solid 1px #FF9924;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+/*查看测试记录*/
+#chktestlog {
+    cursor: pointer;
+}
+/*查看关于本试题评论*/
+#chkcomment {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+
+/*评论区域*/
+.comment {
+    text-align: left;
+    padding: 10px;
+    font-size: larger;
+    border-top: 1px dotted #DDD;
+}
+/*评论的标题*/
+.comment-title {
+    margin-bottom: 20px;
+}
+.delete {
+float:right;
+}
+/*评论区左边的用户图像*/
+.leftcommentauthormessage {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.userimage {
+    width: 50px;
+    height: 50px;
+}
+/*评论区右边的内容*/
+.rightcomment {
+    margin-left: 70px;
+    min-height: 50px;
+}
+
+.username {
+    color: #FF9924;
+}
+
+.commenttime {
+    color: GrayText;
+    font-size: smaller;
+    padding-left: 20px;
+}
+
+.commentbtn {
+    text-align: right;
+    color: GrayText;
+   
+}
+
+.showall {
+    margin-left: 20px;
+     cursor:pointer;
+}
+
+#hidden,.hidden {
+   display:none;
+}
+
+.loadlab {
+    width: 100%;
+    min-height: 30px;
+    line-height:30px;
+    background-color: white;
+}

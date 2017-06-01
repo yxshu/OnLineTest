@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage-logined.master.cs"
+    Inherits="OnLineTest.Web.MasterPage_logined" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--head 头部 -->
+<head runat="server">
+    <title>
+        <%
+            if (Session["User"] != null)
+            {
+                Response.Write(((OnLineTest.Model.Users)Session["User"]).UserChineseName.ToString() + ",欢迎您！");
+            }
+        %>
+    </title>
+    <link href="~/CSS/common.css" rel="stylesheet" type="text/css" />
+    <link href="~/CSS/Master.css" rel="stylesheet" type="text/css" />
+    <%="<script src= '"+ResolveUrl("~/Scripts/jquery-1.9.1.js")+"'type='text/javascript'></script>"%>
+    <%="<script src=' "+ResolveUrl("~/Scripts/master.js")+"'type='text/javascript'></script>"%>
+    <%="<script src=' "+ResolveUrl("~/Scripts/common.js")+"'type='text/javascript'></script>"%>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <center>
+        <!--最顶部的一行，包含称呼和导航标签-->
+        <div id="HeaderZone">
+            <div id="header">
+                <!--生成用户名和退出标签-->
+                <span id="username">
+                    <%
+                        string username = null;
+                        //用户已经登录
+                        if (user != null && (!string.IsNullOrEmpty(user.UserChineseName) || !string.IsNullOrEmpty(user.UserName) || !string.IsNullOrEmpty(user.UserEmail)))
+                        {
+                            if (!string.IsNullOrEmpty(user.UserChineseName))
+                                username = user.UserChineseName.ToString();
+                            else if (!string.IsNullOrEmpty(user.UserName))
+                                username = user.UserName.ToString();
+                            else username = user.UserEmail.ToString();
+                            Response.Write("<a href=" + VirtualPathUtility.ToAbsolute("~\\main.html") + "?UserName=" + user.UserName.ToString() + "&UserGroupId=" + user.UserGroupId.ToString() + "'>");
+                            Response.Write(username + ",&nbsp欢迎您！</a>");
+                            Response.Write("<a href='" + VirtualPathUtility.ToAbsolute("~\\ashx\\LoginOut.ashx") + "'>退出</a>");
+                        }
+                        //用户没有登录，执行跳转
+                        else { OnLineTest.BLL.common.ServerTransfer("error.aspx", 1003, "请先登录", this.Page, string.Empty); }
+                    
+                    %>
+                </span>
+                <!--生成导航标签-->
+                <ul id="minmenu">
+                    <li>
+                        <%="<a href='"+ResolveClientUrl("~\\main.html")+"'>回主页</a>" %></li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\ForgetPsw.html")+"'>忘记密码</a>" %></li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\register.html")+"'>免费注册</a>" %></li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\main.html")+"'>个人中心</a>" %> </li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\InsideMessage\\CheckInsideMessage.html")+"'>信息中心</a>" %> </li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\agreement.html")+"'>联系管理员</a>" %> </li>
+                    <li>
+                        <%="<a href='"+ResolveClientUrl("~\\Search.html")+"'>站内搜索</a>" %></li>
+                    <li>
+                        <%="<a href='" + ResolveClientUrl("~\\CreateQuestionData.html") + "'>生成试题数据和索引</a>"%></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--logo ，包含两大主站选择-->
+        <div id="logo">
+            <span id="logo_Ser">
+                <%="<a href=''><img src="+ResolveClientUrl("~\\Images\\logo_Ser1.png")+" alt='在线服务一' />电信主站</a>" %>
+                <%="<a href=''><img src="+ResolveClientUrl("~\\Images\\logo_Ser2.png")+" alt='在线服务二' />连通主站</a>" %>
+            </span>
+        </div>
+
+        <!--顶部的banner,包含用户信息-->
+        <div id="BannerZone">
+            <!--这里面用来放背景图片的，宽度不定，根据显示器来决定，一般选择2500，高度160px-->
+            <div id="banner">
+                <%= "<span id='userImage'>"%>
+                <%="<img id='image' src='" + ResolveClientUrl("~\\UserImages\\" + user.UserImageName) + "' alt='用户图像' />"%>
+                <%="<img id='imageCover' src='" + ResolveClientUrl("~\\Images\\UserImageCover.png") + "' alt='用户图像遮照' /> "%>
+                <%= "</span>"%>
+                <%="<span id='userDescrip'>" + user.UserEmail + " <br />" + usergroup.UserGroupName + "<br />等级：" + userrank.UserRankName + "</span>"%>
+                <%="<span id='sayHello'>" + user.UserName + "，你好，<br />" + OnLineTest.BLL.common.SayHelloByTime() + "</span>"%>
+            </div>
+        </div>
+
+        <!--内容部分-->
+        <div id="container">
+
+            <!--右侧内容-->
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlace" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <!--左侧导航栏-->
+            <div id="sidebar">
+                <div id="sidebarTitle">
+                    用户权限列表
+                </div>
+                <%Response.Write(userAuthority);%>
+            </div>
+
+        </div>
+
+        <!--页脚 版权和地址-->
+        <div id="footer">
+            <p>
+                地址:湖北省武汉市洪山区白沙洲大道6号 邮编:430065 电话:027-88756000 备案号:鄂ICP备06007470号
+            </p>
+            <br />
+            <p>
+                武汉交通职业学院 whtcc.edu.cn 2004-2013 &copy 版权所有 设计维护:航海学院 联系方式:航海学院 内容提供:航海技术教研室
+            </p>
+        </div>
+
+    </center>
+</body>
+</html>

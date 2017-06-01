@@ -1,0 +1,117 @@
+﻿body {
+}
+/*新增按钮区域*/
+#AddNewQuestion {
+    background-color: #FF9924;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+}
+/*上传试题展示区*/
+#myQuestion {
+    min-height: 500px;
+    position: relative;
+    margin-top: 10px;
+}
+
+
+
+
+/*----------以下为试题部分的样式---------*/
+
+/*整个大的区域块*/
+.QuestionZone {
+    width: 250px;
+    border: 1px solid #DDD;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+}
+/*标题行*/
+.QuestionZoneTitle {
+    overflow: hidden;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+/*标题行的内容UL*/
+.QuestionZoneTitleContent {
+    /*color: GrayText;*/
+}
+
+    .QuestionZoneTitleContent li {
+        list-style-type: none;
+        float: left;
+        /*position:static;*/
+    }
+/*第一行的上传时间*/
+.UpLoadTime {
+    margin-left: 30px;
+    
+    
+}
+
+.status {
+    margin-left: 30px;
+    font-weight: bolder;
+}
+/*用户名前面的图片*/
+.UserImage {
+    width: 25px;
+    height: 25px;
+}
+/*试题题干*/
+.QuestionContent {
+    margin-bottom: 10px;
+}
+/*试题图像*/
+.ImageAddress {
+    width:250px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+/*选项A*/
+.Answer {
+    padding-left: 10px;
+    margin-bottom: 3px;
+}
+/*参考答案四个字*/
+.LabCorrectAnswer {
+    /*color: GrayText;*/
+}
+/*参考答案*/
+.CorrectAnswer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+/*尾巴*/
+.Tail {
+    margin-bottom: 35px;
+}
+/*尾巴的内容Ul*/
+.tailcontent {
+}
+
+    .tailcontent li {
+        list-style-type: none;
+        float: left;
+        margin-left: 10px;
+        /*color: GrayText;*/
+    }
+
+/*--------试题部分结束--------------*/
+
+/*几个标签样式*/
+.lab {
+    width: 100%;
+    margin-top: 20px;
+}
+/*没有数据的样式*/
+#nodata {
+    height: 400px; /*和整个区域一样高*/
+    line-height: 400px;
+}
+/*数据加载结束的标签样式*/
+#finishdata, #loadfinish {
+    height: 40px;
+}

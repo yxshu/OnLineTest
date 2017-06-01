@@ -1,0 +1,154 @@
+D:\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\BLL.dll
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\BLL.pdb
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.exe
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\DAL.dll
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\DBUtility.dll
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\log4net.dll
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\Lucene.Net.dll
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\Model.dll
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\Modules.dll
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.dll
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\MySql.Data.dll
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\System.Data.SQLite.dll
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.pdb
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\log4net.pdb
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\log4net.xml
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\Lucene.Net.pdb
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.pdb
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\DAL.pdb
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\DBUtility.pdb
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\Model.pdb
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\Modules.pdb
+D:\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.dll
+D:\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\BLL.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\BLL.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.exe
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\DAL.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\DBUtility.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\log4net.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\Lucene.Net.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\Model.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\Modules.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\MySql.Data.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\System.Data.SQLite.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\log4net.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\log4net.xml
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\Lucene.Net.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\DAL.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\DBUtility.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\Model.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\bin\Debug\Modules.pdb
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\obj\Debug\BLL.dll
+C:\Users\yxshu\Desktop\OnLineTestForSVN\OnLineTest\BLL\obj\Debug\BLL.pdb
+D:\OnLineTest FOR VSN\OnLineTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\BLL.dll
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\BLL.pdb
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.exe
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DAL.dll
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DBUtility.dll
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\log4net.dll
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Lucene.Net.dll
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Model.dll
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Modules.dll
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.dll
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\MySql.Data.dll
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\System.Data.SQLite.dll
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.pdb
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\log4net.pdb
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\log4net.xml
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Lucene.Net.pdb
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.pdb
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DAL.pdb
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DBUtility.pdb
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Model.pdb
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Modules.pdb
+D:\OnLineTest FOR VSN\OnLineTest\BLL\obj\Debug\BLL.dll
+D:\OnLineTest FOR VSN\OnLineTest\BLL\obj\Debug\BLL.pdb
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\BLL.XML
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.xml
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Lucene.Net.xml
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.xml
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DAL.xml
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DBUtility.xml
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Model.xml
+D:\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Modules.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\BLL.XML
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\BLL.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\BLL.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.exe
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DAL.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DBUtility.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\log4net.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Lucene.Net.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Model.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Modules.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\MySql.Data.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\System.Data.SQLite.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\log4net.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\log4net.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Lucene.Net.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Lucene.Net.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DAL.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DAL.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DBUtility.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DBUtility.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Model.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Model.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Modules.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Modules.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\obj\Debug\BLL.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\obj\Debug\BLL.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\BLL.XML
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\BLL.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\BLL.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.exe
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DAL.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DBUtility.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\log4net.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Lucene.Net.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Model.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Modules.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\MySql.Data.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\System.Data.SQLite.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\log4net.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\log4net.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Lucene.Net.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Lucene.Net.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DAL.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DAL.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DBUtility.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\DBUtility.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Model.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Model.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Modules.pdb
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\bin\Debug\Modules.xml
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\obj\Debug\BLL.dll
+C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\OnLineTest\BLL\obj\Debug\BLL.pdb

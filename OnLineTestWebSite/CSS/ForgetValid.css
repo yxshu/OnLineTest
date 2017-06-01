@@ -1,0 +1,54 @@
+﻿body {
+}
+
+#main {
+    margin-top: 20px;
+    width: 960px;
+    height: 500px;
+    border: 1px solid #ff6a00;
+}
+
+#left {
+    width: 600px;
+    height: 500px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+#rDown {
+    margin-top: 15px;
+}
+
+#right {
+    width: 300px;
+    height: 500px;
+    float: left;
+    border-left: 1px dotted #808080;
+    text-align: center;
+}
+
+#name, #EmailVaildCode, #NewPsw, #VaildNewPsw, #SubNewPasswork {
+    width: 500px;
+    padding-left: 100px;
+    margin-bottom:10px;
+}
+#UserName, #OkCode, #NewPassword, #OkPassword {
+width:230px;
+height:25px;
+}
+#UserName{
+    margin-left:50px;
+}
+#OkCode{
+    margin-left:24px;
+}
+#NewPassword{
+    margin-left:12px;
+}
+#BtnPswReset {
+    margin-left: 85px;
+    height: 35px;
+    width: 150px;
+    margin-top: 35px;
+}

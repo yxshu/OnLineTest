@@ -1,0 +1,113 @@
+﻿body {
+}
+
+#UserUI {
+    text-align: center;
+    margin: 10px auto 0px auto;
+}
+
+#SearchTitle {
+    height: 20px;
+}
+
+    #SearchTitle span {
+        margin: 0px 5px;
+        font-weight: normal;
+        color: #FF9924;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+#UserData {
+    margin-top: 3px;
+}
+
+#keywords {
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    padding-left: 5px;
+    border: solid 1px #FF9924;
+}
+
+#Question {
+    font-weight: bolder;
+    color:black;
+    text-decoration:none;
+    cursor:default;
+}
+
+#btnSubmit {
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#Result {
+    text-align: left;
+    margin: 0px;
+}
+/*查询结果的头部、尾部和参考答案*/
+.head, .foot {
+    text-align: right;
+    color: Gray;
+    margin: 20px auto;
+}
+/*查询结果的Item*/
+.QItem, .CItem {
+    line-height: 25px;
+    margin-bottom: 10px;
+    border:solid 1px #ddd;
+   padding:20px;
+}
+/*试题号码*/
+.TitleId, .CommentId {
+    display:inline-block;
+    font-weight: bolder;
+    width:30px;
+}
+/*试题内容*/
+.Title {
+    display: inline;
+}
+/*试题选项*/
+.Choose {
+    margin: 0px auto 0px 30px;
+}
+/*试题答案*/
+.Answer {
+    color: Gray;
+    text-align: right;
+}
+/*评论号码.CommentId{ display:inline;}*/
+
+/*评论内容*/
+.comment {
+    display: inline;
+}
+/*评论创作时间*/
+.CCreateTime {
+}
+/*评论作者*/
+.CAuthor {
+}
+
+/*下面定义标签的样式*/
+#pager {
+    text-align: center;
+    margin-top: 50px;
+}
+
+    #pager a {
+        font-size: 12px;
+        display: inline-block;
+        padding-top: 10px;
+        width: 25px;
+        height: 20px;
+        margin: 0px 5px;
+        border: solid 1px #ff9924;
+    }
+
+/*下面是关键词层的显示*/
+

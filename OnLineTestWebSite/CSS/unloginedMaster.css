@@ -1,0 +1,61 @@
+﻿#HeaderZone
+{
+    background-color: #FF9924;
+}
+#header
+{
+    text-align:left;
+    clear:both;
+    color:Gray;
+    margin:5px;
+    width: 1000px;
+    }
+        #username
+        { 
+            }
+        #minmenu
+        {
+            float:right;
+            display:inline;
+            }
+            #minmenu li
+            {
+                float:left;
+                list-style-type:none;
+                padding:0px 5px;
+                
+                }
+
+#BannerZone
+{
+    background-image: url(../Images/MasterBannerBackGround1.jpg);
+    background-repeat: no-repeat;
+}
+#banner /*  banner块 */
+{
+    width: 1000px;
+    height: 160px;
+    position: relative;
+}
+#content
+{    
+    clear:both;
+    text-align:left;
+    width:1000px;
+
+    line-height:30px;
+    min-height:300px;
+    overflow:auto;
+}
+
+#footer
+{
+       clear:both;
+       border-top:solid 2px #ff9924;
+       margin:100px 0px 0px 0px;
+       padding:20px 0px 0px 0px;
+       width:100%;
+       position:relative;
+       text-align:center;
+      
+    }

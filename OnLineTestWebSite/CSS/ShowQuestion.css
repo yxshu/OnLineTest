@@ -1,0 +1,11 @@
+﻿body {
+}
+
+#remark {
+    height: 50px;
+    line-height: 50PX;
+    background-color: #DDD;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}

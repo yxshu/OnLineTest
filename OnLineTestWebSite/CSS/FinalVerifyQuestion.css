@@ -1,0 +1,38 @@
+﻿body {
+}
+/*第一行 说明行*/
+#remark {
+    height: 50px;
+    line-height: 50PX;
+    background-color: #FF9924;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+#nodata {
+width:100%;
+line-height:100px;
+}
+/*最后一行  按钮行*/
+#subrow {
+    margin:50px auto 30px auto;
+}
+/*三个按钮的共同属性*/
+.btnsub {
+    display:inline-block;
+    margin-left:50px;
+    padding:5px 30px;
+    font-size:large;
+    background-color:#DDD;
+    border:solid 1px #FF9924;
+}
+/*按钮 通过*/
+#pass {
+}
+/*按钮 路过*/
+#go {
+    line-height:50px;
+}
+/*按钮 不通过*/
+#nopass {
+}

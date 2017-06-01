@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage-unlogined.master.cs"
+    Inherits="MasterPage_unlogined" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/CSS/common.css" rel="stylesheet" type="text/css" />
+    <link href="~/CSS/unloginedMaster.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <center>
+        <!--最顶部的一行，包含称呼和导航标签-->
+        <div id="HeaderZone">
+            <div id="header">
+                <span id="username">
+                    <% 
+                        if (Request.Cookies["UserName"] != null)
+                        {
+                            Response.Write("<a href='" + ResolveUrl("~/Default.aspx") + "' id='log'>" + Request.Cookies["Username"].Value + ",请登录</a>");
+
+                        }
+                        else
+                        {
+                            Response.Write("<a href='" + ResolveUrl("~/Default.aspx") + "' id='log'>亲,请登录</a>");
+                        }%>
+                </span>
+                <ul id="minmenu">
+                    <li>
+                        <%="<a href='"+ResolveClientUrl("~\\main.html")+"'>回主页</a>" %></li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\ForgetPsw.html")+"'>忘记密码</a>" %></li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\register.html")+"'>免费注册</a>" %></li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\main.html")+"'>个人中心</a>" %> </li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\InsideMessage\\CheckInsideMessage.html")+"'>信息中心</a>" %> </li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\agreement.html")+"'>联系管理员</a>" %> </li>
+                    <li><a href="https://wwww.baidu.com">找度娘</a></li>
+                    <li><a href="https://www.taobao.com">逛淘宝</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--顶部的banner,包含用户信息-->
+        <div id="BannerZone">
+            <!--这里面用来放背景图片的，宽度不定，根据显示器来决定，一般选择2500，高度160px-->
+            <div id="banner">
+            </div>
+        </div>
+
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlace" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            <p>
+                地址:湖北省武汉市洪山区白沙洲大道6号 邮编:430065 电话:027-88756000 备案号:鄂ICP备06007470号
+            </p>
+            <br />
+            <p>
+                武汉交通职业学院 whtcc.edu.cn 2004-2013 &copy 版权所有 设计维护:航海学院 联系方式:航海学院 内容提供:航海技术教研室
+            </p>
+        </div>
+    </center>
+</body>
+</html>

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0E44F006-B258-47CC-9577-6F545AAB8E4D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\BLL.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Maticsoft.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Maticsoft.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="PanGu, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="PanGu.HighLight, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthorityManager.cs" />
+    <Compile Include="ChapterManager.cs" />
+    <Compile Include="ChapterManager_Ext.cs" />
+    <Compile Include="CommentManager.cs" />
+    <Compile Include="CommentManager_Ext.cs" />
+    <Compile Include="common.cs" />
+    <Compile Include="DifficultyManager.cs" />
+    <Compile Include="DifficultyManager_Ext.cs" />
+    <Compile Include="ErrorCodes.cs" />
+    <Compile Include="ExamZoneManager.cs" />
+    <Compile Include="ExamZoneManager_Ext.cs" />
+    <Compile Include="LogLoginManager.cs" />
+    <Compile Include="LogLoginManager_Ext.cs" />
+    <Compile Include="LogPracticeManager.cs" />
+    <Compile Include="LogPracticeManager_Ext.cs" />
+    <Compile Include="LogTestManager.cs" />
+    <Compile Include="LogTestManager_Ext.cs" />
+    <Compile Include="LogTestQuestionManager.cs" />
+    <Compile Include="LogTestQuestionManager_Ext.cs" />
+    <Compile Include="Message_tableManager.cs" />
+    <Compile Include="Message_tableManager_Ext.cs" />
+    <Compile Include="PaperCodesManager.cs" />
+    <Compile Include="PaperCodesManager_Ext.cs" />
+    <Compile Include="PastExamPaperManager.cs" />
+    <Compile Include="PastExamPaperManager_Ext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionManager.cs" />
+    <Compile Include="QuestionManager_Ext.cs" />
+    <Compile Include="SendMail.cs" />
+    <Compile Include="SubjectManager.cs" />
+    <Compile Include="SubjectManager_Ext.cs" />
+    <Compile Include="SuggestionKeywordManager.cs" />
+    <Compile Include="TextBookManager.cs" />
+    <Compile Include="TextBookManager_Ext.cs" />
+    <Compile Include="UserAuthorityManager.cs" />
+    <Compile Include="UserAuthorityManager_Ext.cs" />
+    <Compile Include="UserCreatePaperManager.cs" />
+    <Compile Include="UserCreatePaperManager_Ext.cs" />
+    <Compile Include="UserCreatePaperQuestioneManager.cs" />
+    <Compile Include="UserCreatePaperQuestioneManager_Ext.cs" />
+    <Compile Include="UserGroupManager.cs" />
+    <Compile Include="UserGroupManager_Ext.cs" />
+    <Compile Include="UserRankManager.cs" />
+    <Compile Include="UserRankManager_Ext.cs" />
+    <Compile Include="UserScoreDetailManager.cs" />
+    <Compile Include="UserScoreDetailManager_Ext.cs" />
+    <Compile Include="UsersManager.cs" />
+    <Compile Include="UsersManager_Ext.cs" />
+    <Compile Include="VerifyStatusManager.cs" />
+    <Compile Include="VerifyStatusManager_Ext.cs" />
+    <Compile Include="AuthorityManager_Ext.cs" />
+    <Compile Include="SuggestionKeywordManager-Ext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BLL.dll" />
+    <Content Include="bin\Debug\BLL.pdb" />
+    <Content Include="bin\Debug\DAL.dll" />
+    <Content Include="bin\Debug\DAL.pdb" />
+    <Content Include="bin\Debug\DBUtility.dll" />
+    <Content Include="bin\Debug\DBUtility.pdb" />
+    <Content Include="bin\Debug\log4net.dll" />
+    <Content Include="bin\Debug\log4net.pdb" />
+    <Content Include="bin\Debug\log4net.xml" />
+    <Content Include="bin\Debug\Lucene.Net.dll" />
+    <Content Include="bin\Debug\Lucene.Net.pdb" />
+    <Content Include="bin\Debug\Maticsoft.Common.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="bin\Debug\Model.dll" />
+    <Content Include="bin\Debug\Model.pdb" />
+    <Content Include="bin\Debug\MySql.Data.dll" />
+    <Content Include="bin\Debug\PanGu.dll" />
+    <Content Include="bin\Debug\PanGu.HighLight.dll" />
+    <Content Include="bin\Debug\PanGu.Lucene.Analyzer.dll" />
+    <Content Include="bin\Debug\PanGu.Lucene.Analyzer.pdb" />
+    <Content Include="bin\Debug\System.Data.SQLite.dll" />
+    <Content Include="bin\x86\Debug\BLL.dll" />
+    <Content Include="bin\x86\Debug\BLL.pdb" />
+    <Content Include="bin\x86\Debug\DAL.dll" />
+    <Content Include="bin\x86\Debug\DAL.pdb" />
+    <Content Include="bin\x86\Debug\DBUtility.dll" />
+    <Content Include="bin\x86\Debug\DBUtility.pdb" />
+    <Content Include="bin\x86\Debug\log4net.dll" />
+    <Content Include="bin\x86\Debug\log4net.pdb" />
+    <Content Include="bin\x86\Debug\log4net.xml" />
+    <Content Include="bin\x86\Debug\Lucene.Net.dll" />
+    <Content Include="bin\x86\Debug\Lucene.Net.pdb" />
+    <Content Include="bin\x86\Debug\Maticsoft.Common.dll" />
+    <Content Include="bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="bin\x86\Debug\Model.dll" />
+    <Content Include="bin\x86\Debug\Model.pdb" />
+    <Content Include="bin\x86\Debug\MySql.Data.dll" />
+    <Content Include="bin\x86\Debug\PanGu.dll" />
+    <Content Include="bin\x86\Debug\PanGu.HighLight.dll" />
+    <Content Include="bin\x86\Debug\PanGu.Lucene.Analyzer.dll" />
+    <Content Include="bin\x86\Debug\PanGu.Lucene.Analyzer.pdb" />
+    <Content Include="bin\x86\Debug\System.Data.SQLite.dll" />
+    <Content Include="Lib\PanGu.dll" />
+    <Content Include="Lib\PanGu.HighLight.dll" />
+    <Content Include="obj\Debug\BLL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\BLL.dll" />
+    <Content Include="obj\Debug\BLL.pdb" />
+    <Content Include="obj\Debug\Refactor\BLL.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Lib\PanGu.dll.refresh" />
+    <None Include="Lib\PanGu.HighLight.dll.refresh" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ConnectionStringEncrypt\ConnectionStringEncrypt.csproj">
+      <Project>{45f75c09-f0b8-450c-911a-afab28a89ee7}</Project>
+      <Name>ConnectionStringEncrypt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\log4net-1.2.13\log4net.csproj">
+      <Project>{181fe707-e161-4722-9f38-6aaab6faa106}</Project>
+      <Name>log4net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Lucene.Net2.9.2\Lucene.Net.csproj">
+      <Project>{5d4ad9be-1ffb-41ab-9943-25737971bf57}</Project>
+      <Name>Lucene.Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PanGu4Lucene\PanGu.Lucene.Analyzer\PanGu.Lucene.Analyzer.csproj">
+      <Project>{5a6afb41-632d-46c0-b1ab-eb8b10c70a2a}</Project>
+      <Name>PanGu.Lucene.Analyzer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{edbc5f56-1bcf-4249-bb3f-35bb249af516}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{33aa0988-50cd-4a66-ab33-2c125049c160}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{0c98e47c-1eab-4df3-b4c2-9e1c2bb32110}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modules\Modules.csproj">
+      <Project>{e6fe2c95-619f-49cb-9a60-5528d1784be1}</Project>
+      <Name>Modules</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Modules</name>
+    </assembly>
+    <members>
+        <member name="M:Modules.Module.context_BeginRequest(System.Object,System.EventArgs)">
+            <summary>
+            用户请求进入管道时发生的暴露事件，注意要在WEB.CONFIG中注册才有用
+            注册方式：add name="myHttpModule" type="Modules.Module,Modules"
+            参数的意义  name:自定义一个名称  type:有两个参数，第一个参数是处理的类；第二个参数是程度集名称-->
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+    </members>
+</doc>

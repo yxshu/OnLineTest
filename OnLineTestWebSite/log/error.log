@@ -1,0 +1,37 @@
+2015-12-25 23:08:38,171 [25] ERROR [Login] [(null)] - 检测用户是否存在或根据用户名得到用户实例类错误,尼玛，讲这么多干嘛——用户不存在。
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 OnLineTest.BLL.common.ServerTransfer(String TransferPage, Nullable`1 ErrorCode, String errorMessage, String SecondTransferPage) 位置 d:\OnLineTest FOR VSN\OnLineTest\BLL\common.cs:行号 240
+   在 Login.ProcessRequest(HttpContext context) 位置 d:\OnLineTest FOR VSN\OnLineTestWebSite\ashx\Login.ashx:行号 90
+2017-05-20 15:12:19,105 [10] ERROR [OnLineTest.Web.MasterPage_logined] [(null)] - yxshu用户信息和权限树初始化失败。
+System.Web.Caching.DatabaseNotEnabledForNotificationException: 没有为 SQL 缓存通知启用数据库“OnLineTest”。
+
+要为 SQL 缓存通知启用数据库，请使用 System.Web.Caching.SqlCacheDependencyAdmin.EnableNotifications 方法，或命令行工具 aspnet_regsql。要使用此工具，请运行“aspnet_regsql.exe -?”以了解详细信息。
+   在 System.Web.Caching.SqlCacheDependencyManager.EnsureTableIsRegisteredAndPolled(String database, String table)
+   在 System.Web.Caching.SqlCacheDependency.GetDependKey(String database, String tableName)
+   在 System.Web.Caching.SqlCacheDependency..ctor(String databaseEntryName, String tableName)
+   在 OnLineTest.BLL.common.initalSqlCacheDependency(String tablename) 位置 c:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\common.cs:行号 86
+   在 OnLineTest.Web.MasterPage_logined.Page_Load(Object sender, EventArgs e) 位置 c:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTestWebSite\master\MasterPage-logined.master.cs:行号 53
+2017-05-20 15:15:14,866 [12] ERROR [OnLineTest.Web.MasterPage_logined] [(null)] - yxshu用户信息和权限树初始化失败。
+System.Web.Caching.DatabaseNotEnabledForNotificationException: 没有为 SQL 缓存通知启用数据库“OnLineTest”。
+
+要为 SQL 缓存通知启用数据库，请使用 System.Web.Caching.SqlCacheDependencyAdmin.EnableNotifications 方法，或命令行工具 aspnet_regsql。要使用此工具，请运行“aspnet_regsql.exe -?”以了解详细信息。
+   在 System.Web.Caching.SqlCacheDependencyManager.EnsureTableIsRegisteredAndPolled(String database, String table)
+   在 System.Web.Caching.SqlCacheDependency.GetDependKey(String database, String tableName)
+   在 System.Web.Caching.SqlCacheDependency..ctor(String databaseEntryName, String tableName)
+   在 OnLineTest.BLL.common.initalSqlCacheDependency(String tablename) 位置 c:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\common.cs:行号 86
+   在 OnLineTest.Web.MasterPage_logined.Page_Load(Object sender, EventArgs e) 位置 c:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTestWebSite\master\MasterPage-logined.master.cs:行号 53
+2017-05-20 15:15:49,245 [5] ERROR [OnLineTest.Web.MasterPage_logined] [(null)] - yxshu用户信息和权限树初始化失败。
+System.Web.Caching.DatabaseNotEnabledForNotificationException: 没有为 SQL 缓存通知启用数据库“OnLineTest”。
+
+要为 SQL 缓存通知启用数据库，请使用 System.Web.Caching.SqlCacheDependencyAdmin.EnableNotifications 方法，或命令行工具 aspnet_regsql。要使用此工具，请运行“aspnet_regsql.exe -?”以了解详细信息。
+   在 System.Web.Caching.SqlCacheDependencyManager.EnsureTableIsRegisteredAndPolled(String database, String table)
+   在 System.Web.Caching.SqlCacheDependency.GetDependKey(String database, String tableName)
+   在 System.Web.Caching.SqlCacheDependency..ctor(String databaseEntryName, String tableName)
+   在 OnLineTest.BLL.common.initalSqlCacheDependency(String tablename) 位置 c:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTest\BLL\common.cs:行号 86
+   在 OnLineTest.Web.MasterPage_logined.Page_Load(Object sender, EventArgs e) 位置 c:\Users\yxshu\Desktop\OnLineTest FOR VSN20160119\OnLineTest FOR VSN\OnLineTestWebSite\master\MasterPage-logined.master.cs:行号 53
