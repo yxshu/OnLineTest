@@ -44,3 +44,22 @@ System.Data.SqlClient.SqlException (0x80131904): ÔÚÓë SQL Server ½¨Á¢Á¬½ÓÊ±³öÏÖÓ
    ÔÚ Login.ProcessRequest(HttpContext context) Î»ÖÃ c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTestWebSite\ashx\Login.ashx:ĞĞºÅ 42
 ClientConnectionId:00000000-0000-0000-0000-000000000000
 Error Number:2,State:0,Class:20
+2017-10-10 13:35:52,554 [10] ERROR [Login] [(null)] - ¼ì²âÓÃ»§ÊÇ·ñ´æÔÚ»ò¸ù¾İÓÃ»§ÃûµÃµ½ÓÃ»§ÊµÀıÀà´íÎó,ÄáÂê£¬½²ÕâÃ´¶à¸ÉÂï¡ª¡ªÓÃ»§²»´æÔÚ¡£
+System.Data.SqlClient.SqlException (0x80131904): ÎŞ·¨´ò¿ªµÇÂ¼ËùÇëÇóµÄÊı¾İ¿â "OnLineTest"¡£µÇÂ¼Ê§°Ü¡£
+ÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+   ÔÚ OnLineTest.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) Î»ÖÃ c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DBUtility\DbHelperSQL.cs:ĞĞºÅ 835
+   ÔÚ OnLineTest.DBUtility.DbHelperSQL.Exists(String strSql, Int32& getCount, SqlParameter[] cmdParms) Î»ÖÃ c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DBUtility\DbHelperSQL.cs:ĞĞºÅ 139
+   ÔÚ OnLineTest.DAL.UsersServers.Exists(String UserName, String MD5PassWord, Int32& getCount) Î»ÖÃ c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DAL\UsersServers_Ext.cs:ĞĞºÅ 81
+   ÔÚ OnLineTest.BLL.UsersManager.Exists(String UserName, String MD5PassWord, Int32& getCount) Î»ÖÃ c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\UsersManager_Ext.cs:ĞĞºÅ 19
+   ÔÚ Login.ProcessRequest(HttpContext context) Î»ÖÃ c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTestWebSite\ashx\Login.ashx:ĞĞºÅ 42
+ClientConnectionId:f7cb5e0d-c509-4740-9437-e86b2b55fe3f
+Error Number:4060,State:1,Class:11
+2017-10-10 13:38:59,041 [11] ERROR [OnLineTest.Web.MasterPage_logined] [(null)] - yxshuÓÃ»§ĞÅÏ¢ºÍÈ¨ÏŞÊ÷³õÊ¼»¯Ê§°Ü¡£
+System.Web.Caching.DatabaseNotEnabledForNotificationException: Ã»ÓĞÎª SQL »º´æÍ¨ÖªÆôÓÃÊı¾İ¿â¡°OnLineTest¡±¡£
+
+ÒªÎª SQL »º´æÍ¨ÖªÆôÓÃÊı¾İ¿â£¬ÇëÊ¹ÓÃ System.Web.Caching.SqlCacheDependencyAdmin.EnableNotifications ·½·¨£¬»òÃüÁîĞĞ¹¤¾ß aspnet_regsql¡£ÒªÊ¹ÓÃ´Ë¹¤¾ß£¬ÇëÔËĞĞ¡°aspnet_regsql.exe -?¡±ÒÔÁË½âÏêÏ¸ĞÅÏ¢¡£
+   ÔÚ System.Web.Caching.SqlCacheDependencyManager.EnsureTableIsRegisteredAndPolled(String database, String table)
+   ÔÚ System.Web.Caching.SqlCacheDependency.GetDependKey(String database, String tableName)
+   ÔÚ System.Web.Caching.SqlCacheDependency..ctor(String databaseEntryName, String tableName)
+   ÔÚ OnLineTest.BLL.common.initalSqlCacheDependency(String tablename) Î»ÖÃ c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\common.cs:ĞĞºÅ 86
+   ÔÚ OnLineTest.Web.MasterPage_logined.Page_Load(Object sender, EventArgs e) Î»ÖÃ c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTestWebSite\master\MasterPage-logined.master.cs:ĞĞºÅ 53

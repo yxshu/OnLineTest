@@ -131,3 +131,13 @@
 2017-05-24 16:34:36,616 [5] INFO  [Login] [(null)] - 余项树登录成功。
 2017-05-24 16:35:10,952 [5] INFO  [CreateQuestionData] [(null)] - 异常
 2017-05-24 16:39:14,812 [12] INFO  [OnLineTest.BLL.common] [(null)] - yxshu成功退出。
+2017-10-10 13:38:58,706 [5] INFO  [Login] [(null)] - 余项树登录成功。
+2017-10-10 13:38:59,118 [5] INFO  [OnLineTest.BLL.common] [(null)] - yxshu成功退出。
+2017-10-10 13:40:04,089 [15] INFO  [Login] [(null)] - 余项树登录成功。
+2017-10-10 13:41:00,150 [24] INFO  [LoginOut] [(null)] - yxshu成功退出。
+2017-10-10 13:41:00,157 [10] INFO  [OnLineTest.BLL.common] [(null)] - yxshu成功退出。
+2017-10-13 12:02:43,818 [11] INFO  [Login] [(null)] - 余项树登录成功。
+2017-10-13 12:04:43,445 [9] INFO  [LoginOut] [(null)] - yxshu成功退出。
+2017-10-13 12:04:43,472 [11] INFO  [OnLineTest.BLL.common] [(null)] - yxshu成功退出。
+2017-10-13 12:07:19,342 [14] INFO  [Login] [(null)] - 余项树登录成功。
+2017-10-13 12:20:44,936 [13] INFO  [OnLineTest.BLL.common] [(null)] - yxshu成功退出。

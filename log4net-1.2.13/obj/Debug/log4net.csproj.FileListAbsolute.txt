@@ -9,3 +9,9 @@ C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\build\bin\n
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\build\bin\net\2.0\debug\log4net.xml
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\log4net-1.2.13\obj\Debug\log4net.dll
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\log4net-1.2.13\obj\Debug\log4net.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\build\bin\net\2.0\debug\log4net.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\build\bin\net\2.0\debug\log4net.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\build\bin\net\2.0\debug\log4net.xml
+C:\Users\yxshu\Documents\GitHub\OnLineTest\log4net-1.2.13\obj\Debug\log4net.csprojResolveAssemblyReference.cache
+C:\Users\yxshu\Documents\GitHub\OnLineTest\log4net-1.2.13\obj\Debug\log4net.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\log4net-1.2.13\obj\Debug\log4net.pdb

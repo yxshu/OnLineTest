@@ -10,3 +10,9 @@ C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\PanGu4Lucen
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\PanGu4Lucene\PanGu.Lucene.Analyzer\obj\Debug\PanGu.Lucene.Analyzer.csprojResolveAssemblyReference.cache
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\PanGu4Lucene\PanGu.Lucene.Analyzer\obj\Debug\PanGu.Lucene.Analyzer.dll
 C:\Users\yxshu\Desktop\OnLineTest FOR VSN20170521\OnLineTest FOR VSN\PanGu4Lucene\PanGu.Lucene.Analyzer\obj\Debug\PanGu.Lucene.Analyzer.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\PanGu4Lucene\Debug\PanGu.Lucene.Analyzer.XML
+C:\Users\yxshu\Documents\GitHub\OnLineTest\PanGu4Lucene\Debug\PanGu.Lucene.Analyzer.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\PanGu4Lucene\Debug\PanGu.Lucene.Analyzer.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\PanGu4Lucene\PanGu.Lucene.Analyzer\obj\Debug\PanGu.Lucene.Analyzer.csprojResolveAssemblyReference.cache
+C:\Users\yxshu\Documents\GitHub\OnLineTest\PanGu4Lucene\PanGu.Lucene.Analyzer\obj\Debug\PanGu.Lucene.Analyzer.dll
+C:\Users\yxshu\Documents\GitHub\OnLineTest\PanGu4Lucene\PanGu.Lucene.Analyzer\obj\Debug\PanGu.Lucene.Analyzer.pdb
