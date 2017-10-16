@@ -17,12 +17,16 @@ using NPOI.XWPF.UserModel;
 public partial class CreateQuestionData : System.Web.UI.Page
 {
     ILog logger = LogManager.GetLogger(typeof(CreateQuestionData));
+    //索引地址
     string IndexPath = string.Empty;
+    //获得获取根目录下Question Libraries文件中的试题文件
+    string[] QuestionLibraries = null;
     protected void Page_Load(object sender, EventArgs e)
     {
         IndexPath = ConfigurationManager.AppSettings["CreateIndexDirectionPath"].ToString();
         TextBox2.Text = IndexPath;
         TextBox1.Text = Server.MapPath("~\\1.txt");
+        QuestionLibraries = Directory.GetFiles(Server.MapPath("~\\Question Libraries"));
     }
 
     ///<summary>
@@ -54,6 +58,8 @@ public partial class CreateQuestionData : System.Web.UI.Page
         }
         common.ShowMessageBox(this.Page, "导入数据和创建索引成功。");
     }
+
+
     protected void createQuestion(object sender, EventArgs e)
     {
         ILog logger = LogManager.GetLogger(typeof(Question));
@@ -160,8 +166,19 @@ public partial class CreateQuestionData : System.Web.UI.Page
         question.IsDelte = false;
         question.IsSupported = 0;
         question.IsDeSupported = 0;
-        string tihao=new Regex("^[0-9]+.|、", RegexOptions.IgnoreCase).Match(str[0]).ToString();
+        string tihao = new Regex("^[0-9]+.|、", RegexOptions.IgnoreCase).Match(str[0]).ToString();
         question.ImageAddress = tihao.Substring(0, tihao.Length - 1);
         return question;
+    }
+
+    /// <summary>
+    /// 将根目录下的Question Libraries下的每个EXCEL文件中的试题导入数据库并创建索引
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        //QuestionLibraries
+        
     }
 }
