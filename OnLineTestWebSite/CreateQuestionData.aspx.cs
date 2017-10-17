@@ -13,20 +13,21 @@ using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 using NPOI.XWPF.UserModel;
+using NPOI.SS.UserModel;
+using NPOI.XSSF.UserModel;
+using NPOI.HSSF.UserModel;
 
 public partial class CreateQuestionData : System.Web.UI.Page
 {
     ILog logger = LogManager.GetLogger(typeof(CreateQuestionData));
     //索引地址
     string IndexPath = string.Empty;
-    //获得获取根目录下Question Libraries文件中的试题文件
-    string[] QuestionLibraries = null;
+
     protected void Page_Load(object sender, EventArgs e)
     {
         IndexPath = ConfigurationManager.AppSettings["CreateIndexDirectionPath"].ToString();
         TextBox2.Text = IndexPath;
         TextBox1.Text = Server.MapPath("~\\1.txt");
-        QuestionLibraries = Directory.GetFiles(Server.MapPath("~\\Question Libraries"));
     }
 
     ///<summary>
@@ -178,7 +179,58 @@ public partial class CreateQuestionData : System.Web.UI.Page
     /// <param name="e"></param>
     protected void Button3_Click(object sender, EventArgs e)
     {
-        //QuestionLibraries
-        
+        Difficulty difficulty = new DifficultyManager().GetModel(1);//difficultyid为1  是难度不确定
+        Users user = (Users)Session["User"];//得到当前登录的用户
+        PaperCodes papercode = null;
+        TextBook textbook = new TextBook();
+        Chapter chapter = new Chapter();
+        Question question = new Question();
+        question.DifficultyId = difficulty.DifficultyId;
+        question.UserId = user.UserId;
+        //textbook-papercode-subject
+        /*
+         use OnLineTest
+        select * from Difficulty
+        select * from Users
+        select * from PaperCodes
+        select * from Subject
+        select * from TextBook
+        select * from Chapter
+        select * from PastExamPaper
+        select * from Question
+         */
+        //获得获取根目录下Question Libraries文件中的试题文件
+        string[] QuestionLibraries = Directory.GetFiles(Server.MapPath("~\\Question Libraries"));
+        foreach (String path in QuestionLibraries)
+        {
+            FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read);
+            IWorkbook workbook = null;//获得EXCEL文档
+            if (path.IndexOf(".xlsx") > 0) // 2007版本
+            {
+                workbook = new XSSFWorkbook(fs);
+            }
+            else if (path.IndexOf(".xls") > 0) // 2003版本
+            {
+                workbook = new HSSFWorkbook(fs);
+            }
+            ISheet sheet = workbook.GetSheetAt(0);//获得文档中的第一个工作表
+            IRow firstrow = sheet.GetRow(0);//获得工作表中的第一行
+            int column = firstrow.LastCellNum;//获得第一行中的列数
+            int rownum = sheet.LastRowNum;
+            for (int i = 1; i < rownum; i++)
+            {
+                IRow row = sheet.GetRow(i);
+                if (row != null)//没有数据的行默认为null
+                {
+                    for (int j = 0; j < column; j++)
+                    {
+                        NPOI.SS.UserModel.ICell cell = row.GetCell(j);
+
+                    }
+                }
+            }
+        };
+
+
     }
 }
