@@ -55,3 +55,5 @@
 2017-10-17 11:28:08,624 [6] FATAL [application_end] [(null)] - 系统关闭。
 2017-10-17 11:28:22,144 [5] FATAL [application_star] [(null)] - 系统启动成功。
 2017-10-17 12:54:10,634 [8] FATAL [application_end] [(null)] - 系统关闭。
+2017-10-18 11:56:45,335 [5] FATAL [application_star] [(null)] - 系统启动成功。
+2017-10-18 11:59:51,526 [11] FATAL [application_end] [(null)] - 系统关闭。

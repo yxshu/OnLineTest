@@ -1,3 +1,9 @@
 *.dll
 *.pdb
 *.exe
+*.pdb
+*.dll
+*.dll
+*.xml
+*.exe
+ConnectionStringEncrypt/obj/Debug/ConnectionStringEncrypt.exe
