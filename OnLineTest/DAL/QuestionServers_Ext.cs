@@ -24,7 +24,7 @@ namespace OnLineTest.DAL
         public DataSet GetList(int pagesize, int pagenum, int userid)
         {
             DataSet ds = new DataSet();
-            string sql = "select top(@top) o.* from (select ROW_NUMBER() over(order by IsSupported desc) as rownumber,  q.QuestionId,q.QuestionTitle,q.AnswerA,q.AnswerB,q.AnswerC,q.AnswerD,q.CorrectAnswer,q.ImageAddress,q.UpLoadTime,q.VerifyTimes,q.IsVerified,q.IsDelte,q.IsSupported,q.IsDeSupported,q.PaperCodeId,q.TextBookId,q.ChapterId,q.PastExamPaperId,u.UserId,u.UserName,u.UserChineseName,u.UserImageName,u.UserEmail,u.IsValidate,u.Tel,u.UserScore,u.UserRegisterDatetime,g.UserGroupId,g.UserGroupName,g.UserGroupRemark,d.DifficultyDescrip,d.DifficultyId,d.DifficultyRatio,d.DifficultyRemark from Question as q left join Users as u on u.UserId=q.UserId left join UserGroup as g on g.UserGroupId=u.UserGroupId left join Difficulty as d on d.DifficultyId=q.DifficultyId where q.IsVerified='true' and q.IsDelte='false' and q.userid=@userid) as o  where rownumber >=@startnum order by IsSupported desc";
+            string sql = "select top(@top) o.* from (select ROW_NUMBER() over(order by IsSupported desc) as rownumber,  q.QuestionId,q.QuestionTitle,q.AnswerA,q.AnswerB,q.AnswerC,q.AnswerD,q.CorrectAnswer,q.ImageAddress,q.UpLoadTime,q.VerifyTimes,q.IsVerified,q.IsDelte,q.IsSupported,q.IsDeSupported,q.PaperCodeId,q.TextBookId,q.ChapterId,q.PastExamPaperId,q.Explain,q.Remark,u.UserId,u.UserName,u.UserChineseName,u.UserImageName,u.UserEmail,u.IsValidate,u.Tel,u.UserScore,u.UserRegisterDatetime,g.UserGroupId,g.UserGroupName,g.UserGroupRemark,d.DifficultyDescrip,d.DifficultyId,d.DifficultyRatio,d.DifficultyRemark from Question as q left join Users as u on u.UserId=q.UserId left join UserGroup as g on g.UserGroupId=u.UserGroupId left join Difficulty as d on d.DifficultyId=q.DifficultyId where q.IsVerified='true' and q.IsDelte='false' and q.userid=@userid) as o  where rownumber >=@startnum order by IsSupported desc";
             SqlParameter[] parameter ={
                                      new SqlParameter("@top",SqlDbType.Int),
                                      new SqlParameter("@startnum",SqlDbType.Int),
@@ -49,7 +49,7 @@ namespace OnLineTest.DAL
             StringBuilder sb = new StringBuilder();
             sb.Append("select top(@top) o.* from");
             sb.Append("(select ROW_NUMBER() over(order by UpLoadTime desc) as rownumber, ");
-            sb.Append("q.QuestionId,q.QuestionTitle,q.AnswerA,q.AnswerB,q.AnswerC,q.AnswerD,q.CorrectAnswer,q.ImageAddress,q.UpLoadTime,q.VerifyTimes,q.IsVerified,q.IsDelte,q.IsSupported,q.IsDeSupported,q.PastExamQuestionId,");
+            sb.Append("q.QuestionId,q.QuestionTitle,q.AnswerA,q.AnswerB,q.AnswerC,q.AnswerD,q.CorrectAnswer,q.ImageAddress,q.UpLoadTime,q.VerifyTimes,q.IsVerified,q.IsDelte,q.IsSupported,q.IsDeSupported,q.PastExamQuestionId,q.Explain,q.Remark,");
             sb.Append(" u.UserId,u.UserName,u.UserChineseName,u.UserImageName,u.UserEmail,u.IsValidate,u.Tel,u.UserScore,u.UserRegisterDatetime,");
             sb.Append(" g.UserGroupId,g.UserGroupName,g.UserGroupRemark,");
             sb.Append(" d.DifficultyId,d.DifficultyRatio,d.DifficultyDescrip,d.DifficultyRemark,");
@@ -94,7 +94,7 @@ namespace OnLineTest.DAL
             DataSet ds = new DataSet();
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("select ");
-            sb.AppendLine("q.QuestionId,q.QuestionTitle,q.AnswerA,q.AnswerB,q.AnswerC,q.AnswerD,q.CorrectAnswer,q.ImageAddress,q.UpLoadTime,q.VerifyTimes,q.IsVerified,q.IsDelte,q.IsSupported,q.IsDeSupported,q.PastExamQuestionId,");
+            sb.AppendLine("q.QuestionId,q.QuestionTitle,q.AnswerA,q.AnswerB,q.AnswerC,q.AnswerD,q.CorrectAnswer,q.ImageAddress,q.UpLoadTime,q.VerifyTimes,q.IsVerified,q.IsDelte,q.IsSupported,q.IsDeSupported,q.PastExamQuestionId,q.Explain,q.Remark,");
             sb.AppendLine("u.UserId,u.UserName,u.UserChineseName,u.UserImageName,u.UserEmail,u.IsValidate,u.Tel,u.UserScore,u.UserRegisterDatetime,");
             sb.AppendLine("g.UserGroupId,g.UserGroupName,g.UserGroupRemark,");
             sb.AppendLine("d.DifficultyId,d.DifficultyRatio,d.DifficultyDescrip,d.DifficultyRemark,");

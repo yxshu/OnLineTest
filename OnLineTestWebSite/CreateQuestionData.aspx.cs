@@ -168,8 +168,8 @@ public partial class CreateQuestionData : System.Web.UI.Page
         question.IsDelte = false;
         question.IsSupported = 0;
         question.IsDeSupported = 0;
-        string tihao = new Regex("^[0-9]+.|、", RegexOptions.IgnoreCase).Match(str[0]).ToString();
-        question.ImageAddress = tihao.Substring(0, tihao.Length - 1);
+        //string tihao = new Regex("^[0-9]+.|、", RegexOptions.IgnoreCase).Match(str[0]).ToString();
+        //question.ImageAddress = tihao.Substring(0, tihao.Length - 1);
         return question;
     }
 
@@ -329,8 +329,10 @@ public partial class CreateQuestionData : System.Web.UI.Page
                 question.ChapterId = node.ChapterId;
                 question.Remark = row.GetCell(15).StringCellValue.Trim();
                 int qr = questionmanager.Add(question);
-                Thread.Sleep(500);
+                common.CreateIndexofQuestion(new DirectoryInfo(IndexPath),question);
+                 Thread.Sleep(5000);
                 Debug.WriteLine("科目：" + path + ",  第 " + i + " 题 :" + qr);
+               
             };//一本试题结束
 
         };//全部结束
