@@ -174,6 +174,7 @@ namespace OnLineTest.BLL
 		#region  ExtensionMethod
 
 		#endregion  ExtensionMethod
-	}
+
+    }
 }
 
