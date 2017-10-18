@@ -7,3 +7,7 @@
 *.xml
 *.exe
 ConnectionStringEncrypt/obj/Debug/ConnectionStringEncrypt.exe
+*.pdb
+QuestionsFromWordToExcel/bin/Debug/PanGu.Lucene.Analyzer.dll
+*.dll
+*.pdb

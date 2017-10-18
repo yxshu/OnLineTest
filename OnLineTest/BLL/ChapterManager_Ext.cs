@@ -141,6 +141,35 @@ namespace OnLineTest.BLL
             return getAllLowChapter(new ChapterManager().GetModelList("TextBookId=" + textbookid));
         }
         #endregion
+
+
+
+
+        /// <summary>
+        /// 根据书本编号和章节标题查询
+        /// </summary>
+        /// <param name="textbookid">书的编号</param>
+        /// <param name="chaptername">章节标题</param>
+        /// <returns>返回查询到的集合</returns>
+        public List<Chapter> GetModel(int textbookid, string chaptername)
+        {
+            List<Chapter> list = null;
+
+            //select * from Chapter where TextBookId=1 and ChapterName='识图'
+            DataSet ds = dal.GetList("TextBookId=" + textbookid + " and ChapterName='" + chaptername + "'");
+            list = this.DataTableToList(ds.Tables[0]);
+            return list;
+
+
+        }
+
+
+
+
+
+
+
+
     }
 
 

@@ -246,6 +246,14 @@
             <param name="textbookid"></param>
             <returns></returns>
         </member>
+        <member name="M:OnLineTest.BLL.ChapterManager.GetModel(System.Int32,System.String)">
+            <summary>
+            根据书本编号和章节标题查询
+            </summary>
+            <param name="textbookid">书的编号</param>
+            <param name="chaptername">章节标题</param>
+            <returns>返回查询到的集合</returns>
+        </member>
         <member name="T:OnLineTest.BLL.myComparer">
             <summary>
             自定义比较器
@@ -1601,6 +1609,13 @@
             <param name="upORdown">顶或者踩</param>
             <returns></returns>
         </member>
+        <member name="M:OnLineTest.BLL.QuestionManager.Add(System.Collections.Generic.List{OnLineTest.Model.Question})">
+            <summary>
+            添加多个question对象,没有使用事务
+            </summary>
+            <param name="list">多个对象的列表</param>
+            <returns>成功返true,不成功返回false</returns>
+        </member>
         <member name="M:BLL.Mail.Send(System.String,System.String,System.String)">
             <summary>
             发送邮件方法
@@ -1879,6 +1894,13 @@
             <summary>
             分页获取数据列表
             </summary>
+        </member>
+        <member name="M:OnLineTest.BLL.TextBookManager.GetModel(System.String)">
+            <summary>
+            根据书名获得textbook列表
+            </summary>
+            <param name="textbookname"></param>
+            <returns></returns>
         </member>
         <member name="T:OnLineTest.BLL.UserAuthorityManager">
             <summary>

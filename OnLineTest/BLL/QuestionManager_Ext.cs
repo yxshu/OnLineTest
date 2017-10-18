@@ -127,6 +127,26 @@ namespace OnLineTest.BLL
             }
             else return false;
         }
+
+        /// <summary>
+        /// 添加多个question对象,没有使用事务
+        /// </summary>
+        /// <param name="list">多个对象的列表</param>
+        /// <returns>成功返true,不成功返回false</returns>
+        public bool Add(List<Question> list)
+        {
+            bool success = true;
+
+            foreach (Question q in list)
+            {
+                if (Add(q) < 0)
+                {
+                    success = false;
+                    break;
+                }
+            }
+            return success;
+        }
     }
 }
 

@@ -72,3 +72,12 @@ System.Web.Caching.DatabaseNotEnabledForNotificationException: 没有为 SQL 缓存通
    在 System.Web.Caching.SqlCacheDependency..ctor(String databaseEntryName, String tableName)
    在 OnLineTest.BLL.common.initalSqlCacheDependency(String tablename) 位置 c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\common.cs:行号 86
    在 OnLineTest.Web.MasterPage_logined.Page_Load(Object sender, EventArgs e) 位置 c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTestWebSite\master\MasterPage-logined.master.cs:行号 53
+2017-10-18 14:59:03,171 [5] ERROR [OnLineTest.Web.MasterPage_logined] [(null)] - yxshu用户信息和权限树初始化失败。
+System.Web.Caching.DatabaseNotEnabledForNotificationException: 没有为 SQL 缓存通知启用数据库“OnLineTest”。
+
+要为 SQL 缓存通知启用数据库，请使用 System.Web.Caching.SqlCacheDependencyAdmin.EnableNotifications 方法，或命令行工具 aspnet_regsql。要使用此工具，请运行“aspnet_regsql.exe -?”以了解详细信息。
+   在 System.Web.Caching.SqlCacheDependencyManager.EnsureTableIsRegisteredAndPolled(String database, String table)
+   在 System.Web.Caching.SqlCacheDependency.GetDependKey(String database, String tableName)
+   在 System.Web.Caching.SqlCacheDependency..ctor(String databaseEntryName, String tableName)
+   在 OnLineTest.BLL.common.initalSqlCacheDependency(String tablename) 位置 c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\common.cs:行号 86
+   在 OnLineTest.Web.MasterPage_logined.Page_Load(Object sender, EventArgs e) 位置 c:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTestWebSite\master\MasterPage-logined.master.cs:行号 53

@@ -16,6 +16,7 @@ using NPOI.XWPF.UserModel;
 using NPOI.SS.UserModel;
 using NPOI.XSSF.UserModel;
 using NPOI.HSSF.UserModel;
+using System.Threading;
 
 public partial class CreateQuestionData : System.Web.UI.Page
 {
@@ -179,26 +180,52 @@ public partial class CreateQuestionData : System.Web.UI.Page
     /// <param name="e"></param>
     protected void Button3_Click(object sender, EventArgs e)
     {
+        Dictionary<string, string> dic = new Dictionary<string, string>();//主要试题中的科目与数据库中textbookname的名称不一致，这里建立一个对应关系，key是试题中的名称，value是数据库中的名称
+        string[] subjectResourse = {
+                                       "航海学(航海仪器)", 
+                                       "航海学(航海气象与海洋学)",
+                                       "航海学(航海地文、天文)",
+                                       "船舶管理", 
+                                       "船舶结构与货运",
+                                       "航海英语",
+                                       "船舶操纵与避碰（船舶操纵）",
+                                       "船舶操纵与避碰（船舶避碰）",
+                                       "基本安全-个人安全与社会责任",
+                                       "基本安全-个人求生",
+                                       "基本安全-防火与灭火",
+                                       "基本安全-基本急救",
+                                       "精通救生艇筏和救助艇培训",
+                                       "高级消防培训",
+                                       "精通急救培训" 
+                                   };
+        string[] subjectData = {
+                                   "航海学（航海地文、天文和仪器）", 
+                                   "航海学（航海气象与海洋学）", 
+                                   "航海学（航海地文、天文和仪器）",
+                                   "船舶管理（驾驶员）", 
+                                   "船舶结构与货运", 
+                                   "航海英语（二、三副）", 
+                                   "船舶操纵与避碰（船舶操纵）",
+                                    "船舶操纵与避碰（船舶避碰）",
+                                   "个人安全与社会责任", 
+                                   "个人求生", 
+                                   "防火与灭火", 
+                                   "基本急救" ,
+                                   "救生艇筏和救助艇操作及管理",
+                                   "高级消防",
+                                   "精通医疗急救"
+                               };
+        if (subjectData.Length != subjectResourse.Length) throw new ArgumentException("两个科目的长度不一致");
+        for (int i = 0; i < subjectData.Length; i++)
+        {
+            dic.Add(subjectResourse[i], subjectData[i]);
+        }
         Difficulty difficulty = new DifficultyManager().GetModel(1);//difficultyid为1  是难度不确定
         Users user = (Users)Session["User"];//得到当前登录的用户
-        PaperCodes papercode = null;
-        TextBook textbook = new TextBook();
+        TextBook textbook = null;
         Chapter chapter = new Chapter();
-        Question question = new Question();
-        question.DifficultyId = difficulty.DifficultyId;
-        question.UserId = user.UserId;
-        //textbook-papercode-subject
-        /*
-         use OnLineTest
-        select * from Difficulty
-        select * from Users
-        select * from PaperCodes
-        select * from Subject
-        select * from TextBook
-        select * from Chapter
-        select * from PastExamPaper
-        select * from Question
-         */
+        Chapter node = new Chapter();
+        QuestionManager questionmanager = new QuestionManager();
         //获得获取根目录下Question Libraries文件中的试题文件
         string[] QuestionLibraries = Directory.GetFiles(Server.MapPath("~\\Question Libraries"));
         foreach (String path in QuestionLibraries)
@@ -219,18 +246,94 @@ public partial class CreateQuestionData : System.Web.UI.Page
             int rownum = sheet.LastRowNum;
             for (int i = 1; i < rownum; i++)
             {
+                Question question = new Question();
                 IRow row = sheet.GetRow(i);
-                if (row != null)//没有数据的行默认为null
+                //表格中的数据是从0列开始，分别是0AllID/1Id/2SN/3SNID/4Subject/5Chapter/6Node/7Title/8Choosea/9Chooseb/10Choosec/11Choosed/12Answer/13Explain/14ImageAddress/15Remark
+                question.QuestionTitle = row.GetCell(7).StringCellValue.Trim();
+                question.AnswerA = row.GetCell(8).StringCellValue.Trim() + "";
+                question.AnswerB = row.GetCell(9).StringCellValue.Trim() + "";
+                question.AnswerC = row.GetCell(10).StringCellValue.Trim() + "";
+                question.AnswerD = row.GetCell(11).StringCellValue.Trim() + "";
+                question.CorrectAnswer = common.tryparse(row.GetCell(12).StringCellValue.Trim());
+                question.Explain = row.GetCell(13).StringCellValue.Trim();
+                question.ImageAddress = row.GetCell(14).StringCellValue.Trim();
+                question.DifficultyId = difficulty.DifficultyId;
+                question.UserId = user.UserId;
+                string subjectFromExcel = row.GetCell(4).StringCellValue.Trim();
+                string subjectFromDb = dic[subjectFromExcel].Trim();
+                if (textbook == null || textbook.TextBookName != subjectFromDb)
                 {
-                    for (int j = 0; j < column; j++)
+                    textbook = new TextBookManager().GetModel(subjectFromDb)[0];
+                }
+                question.TextBookId = textbook.TextBookId;
+                question.PaperCodeId = textbook.PaperCodeId;
+                //后面开始处理章节标题，先检测章标题，后检测节标题
+                //如果章标题不存在，进添加进去，如果节标题不存在，也添加进去
+                string chapterFromExcel = row.GetCell(5).StringCellValue.Trim();
+                string nodeFromExcel = row.GetCell(6).StringCellValue.Trim();
+                //章标题为空，或者没有，则要新建
+                if (chapter.TextBookId != textbook.TextBookId || chapter.ChapterName != chapterFromExcel)
+                {
+                    ChapterManager chaptermanager = new ChapterManager();
+                    List<Chapter> list = chaptermanager.GetModel(textbook.TextBookId, chapterFromExcel);
+                    if (list.Count > 0)
                     {
-                        NPOI.SS.UserModel.ICell cell = row.GetCell(j);
-
+                        chapter = list[0];
+                    }
+                    else
+                    {
+                        chapter = new Chapter();
+                        chapter.TextBookId = textbook.TextBookId;
+                        chapter.ChapterName = chapterFromExcel;
+                        chapter.ChapterParentNo = 0;
+                        chapter.ChapterDeep = 0;
+                        chapter.ChapterRemark = chapterFromExcel;
+                        int resu = new ChapterManager().Add(chapter);
+                        if (resu > 0)
+                        {
+                            chapter.ChapterId = resu;
+                        }
+                        else
+                        {
+                            throw new Exception("插入章标题失败。");
+                        }
                     }
                 }
-            }
-        };
+                if (node.TextBookId != textbook.TextBookId || node.ChapterName != nodeFromExcel)
+                {
+                    ChapterManager chaptermanager = new ChapterManager();
+                    List<Chapter> list = chaptermanager.GetModel(textbook.TextBookId, nodeFromExcel);
+                    if (list.Count > 0)
+                    {
+                        node = list[0];
+                    }
+                    else
+                    {
+                        node = new Chapter();
+                        node.TextBookId = textbook.TextBookId;
+                        node.ChapterName = nodeFromExcel;
+                        node.ChapterParentNo = chapter.ChapterId;
+                        node.ChapterDeep = 1;
+                        node.ChapterRemark = nodeFromExcel;
+                        int resu = new ChapterManager().Add(node);
+                        if (resu > 0)
+                        {
+                            node.ChapterId = resu;
+                        }
+                        else
+                        {
+                            throw new Exception("插入节标题失败。");
+                        }
+                    }
+                }
+                question.ChapterId = node.ChapterId;
+                question.Remark = row.GetCell(15).StringCellValue.Trim();
+                int qr = questionmanager.Add(question);
+                Thread.Sleep(500);
+                Debug.WriteLine("科目：" + path + ",  第 " + i + " 题 :" + qr);
+            };//一本试题结束
 
-
+        };//全部结束
+        common.ShowMessageBox(this.Page, "全部完成");
     }
 }

@@ -33,3 +33,4 @@ C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Modules\bin\Debug\log4net.
 C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Modules\bin\Debug\log4net.xml
 C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Modules\obj\Debug\Modules.dll
 C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Modules\obj\Debug\Modules.pdb
+C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Modules\obj\Debug\Modules.csprojResolveAssemblyReference.cache

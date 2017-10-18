@@ -507,6 +507,11 @@
             参考答案 int  not null check(CorrectAnswer in(1,2,3,4))
             </summary>
         </member>
+        <member name="P:OnLineTest.Model.Question.Explain">
+            <summary>
+            解析 Explain text null,-----解析
+            </summary>
+        </member>
         <member name="P:OnLineTest.Model.Question.ImageAddress">
             <summary>
             题目对应的图形(如果有) nvarchar(100) null
@@ -573,8 +578,13 @@
             </summary>
         </member>
         <member name="P:OnLineTest.Model.Question.PastExamQuestionId">
+             <summary>
+            真题对应的编号   如果是真题，则在真题中的题号
+             </summary>
+        </member>
+        <member name="P:OnLineTest.Model.Question.Remark">
             <summary>
-            
+            备注  Remark text null---------备注
             </summary>
         </member>
         <member name="T:OnLineTest.Model.Subject">
