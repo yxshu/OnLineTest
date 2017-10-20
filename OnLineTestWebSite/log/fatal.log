@@ -104,3 +104,8 @@
 2017-10-18 22:49:08,670 [6] FATAL [application_star] [(null)] - 系统启动成功。
 2017-10-18 22:54:18,099 [3] FATAL [application_star] [(null)] - 系统启动成功。
 2017-10-18 22:58:32,047 [5] FATAL [application_star] [(null)] - 系统启动成功。
+2017-10-19 13:23:35,760 [5] FATAL [application_star] [(null)] - 系统启动成功。
+2017-10-20 12:18:28,431 [33] FATAL [application_end] [(null)] - 系统关闭。
+2017-10-20 12:18:43,225 [5] FATAL [application_star] [(null)] - 系统启动成功。
+2017-10-20 12:54:47,120 [38] FATAL [application_end] [(null)] - 系统关闭。
+2017-10-20 12:55:07,935 [5] FATAL [application_star] [(null)] - 系统启动成功。
