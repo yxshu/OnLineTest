@@ -329,6 +329,7 @@ public partial class CreateQuestionData : System.Web.UI.Page
                 question.ChapterId = node.ChapterId;
                 question.Remark = row.GetCell(15).StringCellValue.Trim();
                 int qr = questionmanager.Add(question);
+                question.QuestionId = qr;
                 common.CreateIndexofQuestion(new DirectoryInfo(IndexPath),question);
                 // Thread.Sleep(5000);
                 Debug.WriteLine("科目：" + path + ",  第 " + i + " 题 :" + qr);

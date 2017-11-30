@@ -11,3 +11,5 @@ ConnectionStringEncrypt/obj/Debug/ConnectionStringEncrypt.exe
 QuestionsFromWordToExcel/bin/Debug/PanGu.Lucene.Analyzer.dll
 *.dll
 *.pdb
+*.exe
+*.exe
