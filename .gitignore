@@ -18,3 +18,5 @@ QuestionsFromWordToExcel/bin/Debug/PanGu.Lucene.Analyzer.dll
 *.pdb
 *.exe
 *.cache
+*.suo
+*.log
