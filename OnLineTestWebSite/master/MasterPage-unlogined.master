@@ -29,12 +29,12 @@
                 </span>
                 <ul id="minmenu">
                     <li>
-                        <%="<a href='"+ResolveClientUrl("~\\main.html")+"'>回主页</a>" %></li>
-                    <li><%="<a href='"+ResolveClientUrl("~\\ForgetPsw.html")+"'>忘记密码</a>" %></li>
-                    <li><%="<a href='"+ResolveClientUrl("~\\register.html")+"'>免费注册</a>" %></li>
-                    <li><%="<a href='"+ResolveClientUrl("~\\main.html")+"'>个人中心</a>" %> </li>
-                    <li><%="<a href='"+ResolveClientUrl("~\\InsideMessage\\CheckInsideMessage.html")+"'>信息中心</a>" %> </li>
-                    <li><%="<a href='"+ResolveClientUrl("~\\agreement.html")+"'>联系管理员</a>" %> </li>
+                        <%="<a href='"+ResolveClientUrl("~\\main.aspx")+"'>回主页</a>" %></li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\ForgetPsw.aspx")+"'>忘记密码</a>" %></li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\register.aspx")+"'>免费注册</a>" %></li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\main.aspx")+"'>个人中心</a>" %> </li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\InsideMessage\\CheckInsideMessage.aspx")+"'>信息中心</a>" %> </li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\agreement.aspx")+"'>联系管理员</a>" %> </li>
                     <li><a href="https://wwww.baidu.com">找度娘</a></li>
                     <li><a href="https://www.taobao.com">逛淘宝</a></li>
                 </ul>

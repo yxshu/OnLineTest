@@ -12,7 +12,7 @@
 </head>
 <body>
     <center>
-        <form method="post" id="form1" action="ashx/Login.xhtml" runat="server">
+        <form method="post" id="form1" action="ashx/Login.ashx" runat="server">
 
             <div id="container">
 

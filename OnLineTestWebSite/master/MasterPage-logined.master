@@ -38,7 +38,7 @@
                             else if (!string.IsNullOrEmpty(user.UserName))
                                 username = user.UserName.ToString();
                             else username = user.UserEmail.ToString();
-                            Response.Write("<a href=" + VirtualPathUtility.ToAbsolute("~\\main.html") + "?UserName=" + user.UserName.ToString() + "&UserGroupId=" + user.UserGroupId.ToString() + "'>");
+                            Response.Write("<a href=" + VirtualPathUtility.ToAbsolute("~\\main.aspx") + "?UserName=" + user.UserName.ToString() + "&UserGroupId=" + user.UserGroupId.ToString() + "'>");
                             Response.Write(username + ",&nbsp欢迎您！</a>");
                             Response.Write("<a href='" + VirtualPathUtility.ToAbsolute("~\\ashx\\LoginOut.ashx") + "'>退出</a>");
                         }
@@ -50,16 +50,16 @@
                 <!--生成导航标签-->
                 <ul id="minmenu">
                     <li>
-                        <%="<a href='"+ResolveClientUrl("~\\main.html")+"'>回主页</a>" %></li>
-                    <li><%="<a href='"+ResolveClientUrl("~\\ForgetPsw.html")+"'>忘记密码</a>" %></li>
-                    <li><%="<a href='"+ResolveClientUrl("~\\register.html")+"'>免费注册</a>" %></li>
-                    <li><%="<a href='"+ResolveClientUrl("~\\main.html")+"'>个人中心</a>" %> </li>
-                    <li><%="<a href='"+ResolveClientUrl("~\\InsideMessage\\CheckInsideMessage.html")+"'>信息中心</a>" %> </li>
-                    <li><%="<a href='"+ResolveClientUrl("~\\agreement.html")+"'>联系管理员</a>" %> </li>
+                        <%="<a href='"+ResolveClientUrl("~\\main.aspx")+"'>回主页</a>" %></li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\ForgetPsw.aspx")+"'>忘记密码</a>" %></li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\register.aspx")+"'>免费注册</a>" %></li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\main.aspx")+"'>个人中心</a>" %> </li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\InsideMessage\\CheckInsideMessage.aspx")+"'>信息中心</a>" %> </li>
+                    <li><%="<a href='"+ResolveClientUrl("~\\agreement.aspx")+"'>联系管理员</a>" %> </li>
                     <li>
-                        <%="<a href='"+ResolveClientUrl("~\\Search.html")+"'>站内搜索</a>" %></li>
+                        <%="<a href='"+ResolveClientUrl("~\\Search.aspx")+"'>站内搜索</a>" %></li>
                     <li>
-                        <%="<a href='" + ResolveClientUrl("~\\CreateQuestionData.html") + "'>生成试题数据和索引</a>"%></li>
+                        <%="<a href='" + ResolveClientUrl("~\\CreateQuestionData.aspx") + "'>生成试题数据和索引</a>"%></li>
                 </ul>
             </div>
         </div>
