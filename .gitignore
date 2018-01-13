@@ -297,3 +297,8 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+*.exe
+*.exe
+*.pdb
+*.dll
+ConnectionStringEncrypt/bin/Debug/Modules.pdb
