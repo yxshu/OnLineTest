@@ -147,6 +147,16 @@ namespace OnLineTest.BLL
             }
             return success;
         }
+        /// <summary>
+        /// 随机产生一个试题
+        /// </summary>
+        /// <returns></returns>
+        public Question getQuestionbyRandom()
+        {
+            int max = this.GetMaxId();
+            Question question = this.GetModel(new Random().Next(max));
+            return question;
+        }
     }
 }
 

@@ -1616,6 +1616,12 @@
             <param name="list">多个对象的列表</param>
             <returns>成功返true,不成功返回false</returns>
         </member>
+        <member name="M:OnLineTest.BLL.QuestionManager.getQuestionbyRandom">
+            <summary>
+            随机产生一个试题
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:BLL.Mail.Send(System.String,System.String,System.String)">
             <summary>
             发送邮件方法
