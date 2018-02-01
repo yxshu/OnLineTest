@@ -11,7 +11,6 @@ namespace OnLineTest.DAL
 	/// </summary>
 	public partial class SubjectServers
 	{
-
 	}
 }
 
