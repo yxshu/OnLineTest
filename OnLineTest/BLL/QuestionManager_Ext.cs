@@ -157,6 +157,34 @@ namespace OnLineTest.BLL
             Question question = this.GetModel(new Random().Next(max));
             return question;
         }
+        public OnLineTest.Model.Question GetModel(string strWhere)
+        {
+            Question q = null;
+            DataSet ds = dal.GetList(strWhere);
+            List<Question> list = this.DataTableToList(ds.Tables[0]);
+            if (list.Count > 0)
+            {
+                q = list[0];
+            }
+            return q;
+        }
+        /// <summary>
+        /// 按要求排序，获取第一个试题
+        /// </summary>
+        /// <param name="strWhere"></param>
+        /// <param name="orderby"></param>
+        /// <returns></returns>
+        public Question GetModel(string strWhere, string orderby)
+        {
+            Question q = new Question();
+            DataSet ds = dal.GetList(1, strWhere, orderby);
+            List<Question> list = this.DataTableToList(ds.Tables[0]);
+            if (list.Count > 0)
+            {
+                q = list[0];
+            }
+            return q;
+        }
     }
 }
 
