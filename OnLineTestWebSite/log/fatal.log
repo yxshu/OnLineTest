@@ -236,3 +236,5 @@
 2018-02-04 02:28:06,283 [3] FATAL [application_star] [(null)] - 系统启动成功。
 2018-02-04 02:49:07,117 [10] FATAL [application_end] [(null)] - 系统关闭。
 2018-02-04 02:58:20,090 [3] FATAL [application_star] [(null)] - 系统启动成功。
+2018-02-04 03:56:41,509 [18] FATAL [application_end] [(null)] - 系统关闭。
+2018-02-04 14:01:44,715 [3] FATAL [application_star] [(null)] - 系统启动成功。
