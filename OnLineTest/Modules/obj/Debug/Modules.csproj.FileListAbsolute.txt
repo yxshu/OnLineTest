@@ -34,3 +34,12 @@ C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Modules\bin\Debug\log4net.
 C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Modules\obj\Debug\Modules.csprojResolveAssemblyReference.cache
 C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Modules\obj\Debug\Modules.dll
 C:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\Modules\obj\Debug\Modules.pdb
+D:\GitHub\OnLineTest\OnLineTest\Modules\bin\Debug\Modules.XML
+D:\GitHub\OnLineTest\OnLineTest\Modules\bin\Debug\Modules.dll
+D:\GitHub\OnLineTest\OnLineTest\Modules\bin\Debug\Modules.pdb
+D:\GitHub\OnLineTest\OnLineTest\Modules\bin\Debug\log4net.dll
+D:\GitHub\OnLineTest\OnLineTest\Modules\bin\Debug\log4net.pdb
+D:\GitHub\OnLineTest\OnLineTest\Modules\bin\Debug\log4net.xml
+D:\GitHub\OnLineTest\OnLineTest\Modules\obj\Debug\Modules.csprojResolveAssemblyReference.cache
+D:\GitHub\OnLineTest\OnLineTest\Modules\obj\Debug\Modules.dll
+D:\GitHub\OnLineTest\OnLineTest\Modules\obj\Debug\Modules.pdb

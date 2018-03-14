@@ -15,3 +15,9 @@ C:\Users\yxshu\Documents\GitHub\OnLineTest\build\bin\net\2.0\debug\log4net.xml
 C:\Users\yxshu\Documents\GitHub\OnLineTest\log4net-1.2.13\obj\Debug\log4net.dll
 C:\Users\yxshu\Documents\GitHub\OnLineTest\log4net-1.2.13\obj\Debug\log4net.pdb
 C:\Users\yxshu\Documents\GitHub\OnLineTest\log4net-1.2.13\obj\Debug\log4net.csprojResolveAssemblyReference.cache
+D:\GitHub\OnLineTest\build\bin\net\2.0\debug\log4net.dll
+D:\GitHub\OnLineTest\build\bin\net\2.0\debug\log4net.pdb
+D:\GitHub\OnLineTest\build\bin\net\2.0\debug\log4net.xml
+D:\GitHub\OnLineTest\log4net-1.2.13\obj\Debug\log4net.csprojResolveAssemblyReference.cache
+D:\GitHub\OnLineTest\log4net-1.2.13\obj\Debug\log4net.dll
+D:\GitHub\OnLineTest\log4net-1.2.13\obj\Debug\log4net.pdb
