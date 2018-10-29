@@ -316,3 +316,6 @@ ConnectionStringEncrypt/bin/Debug/Model.dll
 ConnectionStringEncrypt/bin/Debug/Model.pdb
 ConnectionStringEncrypt/bin/Debug/Modules.dll
 ConnectionStringEncrypt/bin/Debug/Modules.pdb
+*.dll
+*.dll
+*.pdb
