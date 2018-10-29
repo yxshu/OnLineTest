@@ -8,19 +8,16 @@
     <link href="CSS/default.css" rel="stylesheet" type="text/css" />
     <script src="Scripts/jquery-1.9.1.js" type="text/javascript"></script>
     <script src="Scripts/Default.js" type="text/javascript"></script>
-   
+
 </head>
 <body>
     <center>
         <form method="post" id="form1" action="ashx/Login.ashx" runat="server">
-
             <div id="container">
-
                 <!--这里是头-->
                 <div id="header">
                     <%--尺寸：150px*1000px  在CSS里放入一个LOGO.PNG--%>
                 </div>
-
                 <!--这个区域主要用来放背景图的，宽度100%  高度400px ，后面的小图标和登录窗口通过调整位置使其位于此背景的上面 -->
                 <div id="Mbody">
                     <!--这里是背景导航的小图标-->
@@ -33,7 +30,6 @@
                         </ul>
                     </div>
                 </div>
-
                 <!--这是登录的窗口--->
                 <div id="content">
                     <!--标题--->
