@@ -22,3 +22,9 @@ D:\GitHub\OnLineTest\PanGu4Lucene\Debug\PanGu.Lucene.Analyzer.pdb
 D:\GitHub\OnLineTest\PanGu4Lucene\PanGu.Lucene.Analyzer\obj\Debug\PanGu.Lucene.Analyzer.csprojResolveAssemblyReference.cache
 D:\GitHub\OnLineTest\PanGu4Lucene\PanGu.Lucene.Analyzer\obj\Debug\PanGu.Lucene.Analyzer.dll
 D:\GitHub\OnLineTest\PanGu4Lucene\PanGu.Lucene.Analyzer\obj\Debug\PanGu.Lucene.Analyzer.pdb
+D:\Users\yxshu\Documents\GitHub\OnLineTest\PanGu4Lucene\Debug\PanGu.Lucene.Analyzer.XML
+D:\Users\yxshu\Documents\GitHub\OnLineTest\PanGu4Lucene\Debug\PanGu.Lucene.Analyzer.dll
+D:\Users\yxshu\Documents\GitHub\OnLineTest\PanGu4Lucene\Debug\PanGu.Lucene.Analyzer.pdb
+D:\Users\yxshu\Documents\GitHub\OnLineTest\PanGu4Lucene\PanGu.Lucene.Analyzer\obj\Debug\PanGu.Lucene.Analyzer.csprojResolveAssemblyReference.cache
+D:\Users\yxshu\Documents\GitHub\OnLineTest\PanGu4Lucene\PanGu.Lucene.Analyzer\obj\Debug\PanGu.Lucene.Analyzer.dll
+D:\Users\yxshu\Documents\GitHub\OnLineTest\PanGu4Lucene\PanGu.Lucene.Analyzer\obj\Debug\PanGu.Lucene.Analyzer.pdb

@@ -302,3 +302,17 @@ __pycache__/
 *.pdb
 *.dll
 ConnectionStringEncrypt/bin/Debug/Modules.pdb
+*.exe
+*.exe
+*.dll
+*.pdb
+ConnectionStringEncrypt/bin/Debug/ConnectionStringEncrypt.exe
+ConnectionStringEncrypt/bin/Debug/ConnectionStringEncrypt.pdb
+ConnectionStringEncrypt/bin/Debug/DAL.dll
+ConnectionStringEncrypt/bin/Debug/DAL.pdb
+ConnectionStringEncrypt/bin/Debug/DBUtility.dll
+ConnectionStringEncrypt/bin/Debug/DBUtility.pdb
+ConnectionStringEncrypt/bin/Debug/Model.dll
+ConnectionStringEncrypt/bin/Debug/Model.pdb
+ConnectionStringEncrypt/bin/Debug/Modules.dll
+ConnectionStringEncrypt/bin/Debug/Modules.pdb
