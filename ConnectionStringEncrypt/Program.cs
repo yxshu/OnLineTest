@@ -18,6 +18,7 @@ namespace ConnectionStringEncrypt
                 string Mkey = DESEncrypt.Encrypt(key);
                 Console.WriteLine("=======================密文如下：=====================");
                 Console.WriteLine(Mkey);
+                Console.WriteLine(string.Format("解密后的密文如下：{0}", DESEncrypt.Decrypt(Mkey)));
 
             } while (true);
         }
