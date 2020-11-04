@@ -1244,17 +1244,17 @@
             </summary>
             <param name="SQLStringList">多条SQL语句</param>		
         </member>
+        <member name="P:OnLineTest.DBUtility.PubConstant.ConnectionString">
+            <summary>
+            获取连接字符串
+            </summary>
+        </member>
         <member name="M:OnLineTest.DBUtility.PubConstant.GetConnectionString(System.String)">
             <summary>
             得到web.config里配置项的数据库连接字符串。
             </summary>
             <param name="configName"></param>
             <returns></returns>
-        </member>
-        <member name="P:OnLineTest.DBUtility.PubConstant.ConnectionString">
-            <summary>
-            获取连接字符串
-            </summary>
         </member>
         <member name="T:OnLineTest.DBUtility.SqlHelper">
             <summary>

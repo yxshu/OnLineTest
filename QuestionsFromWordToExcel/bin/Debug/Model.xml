@@ -381,7 +381,6 @@
             如果阅读,阅读时间 datetime null
             </summary>
         </member>
-        <!-- 对于成员“M:Model.Pager.#ctor(System.Int32,System.Int32,System.Int32,System.String)”忽略有格式错误的 XML 注释 -->
         <member name="T:OnLineTest.Model.PaperCodes">
             <summary>
             试卷代码实例
@@ -912,5 +911,6 @@
             审核时间 datetime not null default getdate()
             </summary>
         </member>
+        <!-- 对于成员“M:Model.Pager.#ctor(System.Int32,System.Int32,System.Int32,System.String)”忽略有格式错误的 XML 注释 -->
     </members>
 </doc>

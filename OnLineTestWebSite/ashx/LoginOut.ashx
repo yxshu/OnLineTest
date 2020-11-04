@@ -34,7 +34,7 @@ public class LoginOut : IHttpHandler, IRequiresSessionState
             logger.Info(((OnLineTest.Model.Users)context.Session["User"]).UserName + "成功退出。");
         }
         context.Session.Abandon();
-        context.Response.Redirect("~\\Default.html", false);
+        context.Response.Redirect("~\\Default.aspx", false);
     }
 
     public bool IsReusable

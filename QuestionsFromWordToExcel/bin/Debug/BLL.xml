@@ -1630,41 +1630,6 @@
             <param name="orderby"></param>
             <returns></returns>
         </member>
-        <member name="M:BLL.Mail.Send(System.String,System.String,System.String)">
-            <summary>
-            发送邮件方法
-            </summary>
-            <param name="to">收件人</param>
-            <param name="subject">主题</param>
-            <param name="body">邮件内容</param>
-            <returns>成功为true,失败为false</returns>
-        </member>
-        <member name="M:BLL.Mail.Send(System.String,System.String,System.String,System.String)">
-            <summary>
-            发送邮件方法
-            </summary>
-            <param name="to">收件人</param>
-            <param name="subject">主题</param>
-            <param name="body">邮件内容</param>
-            <param name="appSettingsKey">关于发件人信息在config中的配置节点名称</param>
-            <returns>成功为true,失败为false</returns>
-        </member>
-        <member name="M:BLL.Mail.Send(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
-            <summary> 
-            发送邮件程序 
-            </summary> 
-            <param name="from">发送人邮件地址</param> 
-            <param name="fromname">发送人显示名称</param> 
-            <param name="to">发送给谁（邮件地址）</param> 
-            <param name="subject">标题</param> 
-            <param name="body">内容</param> 
-            <param name="username">邮件登录名</param> 
-            <param name="password">邮件密码</param> 
-            <param name="server">邮件服务器</param> 
-            <param name="fujian">附件</param> 
-            <returns>send ok</returns> 
-            调用方法 SendMail("abc@126.com", "某某人", "cba@126.com", "你好", "我测试下邮件", "邮箱登录名", "邮箱密码", "smtp.126.com", ""); 
-        </member>
         <member name="T:OnLineTest.BLL.SubjectManager">
             <summary>
             科目实例
@@ -2717,6 +2682,41 @@
             <param name="v">insert VerifyStatus</param>
             <param name="q">updata Question</param>
             <returns>新增的审核记录的VerifyStatusId</returns>
+        </member>
+        <member name="M:BLL.Mail.Send(System.String,System.String,System.String)">
+            <summary>
+            发送邮件方法
+            </summary>
+            <param name="to">收件人</param>
+            <param name="subject">主题</param>
+            <param name="body">邮件内容</param>
+            <returns>成功为true,失败为false</returns>
+        </member>
+        <member name="M:BLL.Mail.Send(System.String,System.String,System.String,System.String)">
+            <summary>
+            发送邮件方法
+            </summary>
+            <param name="to">收件人</param>
+            <param name="subject">主题</param>
+            <param name="body">邮件内容</param>
+            <param name="appSettingsKey">关于发件人信息在config中的配置节点名称</param>
+            <returns>成功为true,失败为false</returns>
+        </member>
+        <member name="M:BLL.Mail.Send(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary> 
+            发送邮件程序 
+            </summary> 
+            <param name="from">发送人邮件地址</param> 
+            <param name="fromname">发送人显示名称</param> 
+            <param name="to">发送给谁（邮件地址）</param> 
+            <param name="subject">标题</param> 
+            <param name="body">内容</param> 
+            <param name="username">邮件登录名</param> 
+            <param name="password">邮件密码</param> 
+            <param name="server">邮件服务器</param> 
+            <param name="fujian">附件</param> 
+            <returns>send ok</returns> 
+            调用方法 SendMail("abc@126.com", "某某人", "cba@126.com", "你好", "我测试下邮件", "邮箱登录名", "邮箱密码", "smtp.126.com", ""); 
         </member>
     </members>
 </doc>

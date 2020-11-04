@@ -1,4 +1,3 @@
-D:\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 D:\OnLineTest\OnLineTest\BLL\bin\Debug\BLL.dll
 D:\OnLineTest\OnLineTest\BLL\bin\Debug\BLL.pdb
 D:\OnLineTest\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.exe
@@ -254,3 +253,14 @@ D:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\bin\Debug\Modules.xml
 D:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 D:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.dll
 D:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.pdb
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\BLL.XML
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.xml
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\Lucene.Net.xml
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\PanGu.Lucene.Analyzer.xml
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\DAL.xml
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\DBUtility.xml
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\Model.xml
+D:\OnLineTest\OnLineTest\BLL\bin\Debug\Modules.xml
+D:\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.csproj.CopyComplete

@@ -36,11 +36,11 @@
                     <div id="title">登录考试系统</div>
                     <!--用户名，邮箱/用户名--->
                     <div id="txtUser">
-                        <img id="usernameico" class="tubiao" src="Images/username.jpg" alt="用户名" title="用户名" /><input type="text" name="txtusername" id="username" class="shurukuan" value="yxshu" />
+                        <img id="usernameico" class="tubiao" src="Images/username.jpg" alt="用户名" title="用户名" /><input type="text" name="txtusername" id="username" class="shurukuan" value="" />
                     </div>
                     <!--密码--->
                     <div id="txtPassword">
-                        <img id="passwordico" class="tubiao" src="Images/password.jpg" alt="密码" title="密码" /><input type="password" name="txtpassword" id="password" class="shurukuan" value="Ashulovejuan1" />
+                        <img id="passwordico" class="tubiao" src="Images/password.jpg" alt="密码" title="密码" /><input type="password" name="txtpassword" id="password" class="shurukuan" value="" />
                     </div>
                     <!--验证码--->
                     <div id="txtValidCode">

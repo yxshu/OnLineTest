@@ -1,4 +1,3 @@
-D:\OnLineTest\OnLineTest\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\OnLineTest\OnLineTest\DAL\bin\Debug\DAL.dll
 D:\OnLineTest\OnLineTest\DAL\bin\Debug\DAL.pdb
 D:\OnLineTest\OnLineTest\DAL\bin\Debug\DBUtility.dll
@@ -144,3 +143,9 @@ D:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DAL\bin\Debug\Model.xml
 D:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DAL\obj\Debug\DAL.dll
 D:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DAL\obj\Debug\DAL.pdb
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\DAL.XML
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\DBUtility.xml
+D:\OnLineTest\OnLineTest\DAL\bin\Debug\Model.xml
+D:\OnLineTest\OnLineTest\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\OnLineTest\OnLineTest\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\OnLineTest\OnLineTest\DAL\obj\Debug\DAL.csproj.CopyComplete

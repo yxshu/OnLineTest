@@ -1,4 +1,3 @@
-D:\OnLineTest\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.csprojResolveAssemblyReference.cache
 D:\OnLineTest\ConnectionStringEncrypt\bin\Debug\ConnectionStringEncrypt.exe
 D:\OnLineTest\ConnectionStringEncrypt\bin\Debug\ConnectionStringEncrypt.pdb
 D:\OnLineTest\ConnectionStringEncrypt\bin\Debug\DAL.dll
@@ -222,3 +221,12 @@ D:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\bin\Debug\DBU
 D:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.csprojResolveAssemblyReference.cache
 D:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.exe
 D:\Users\yxshu\Documents\GitHub\OnLineTest\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.pdb
+D:\OnLineTest\ConnectionStringEncrypt\bin\Debug\ConnectionStringEncrypt.XML
+D:\OnLineTest\ConnectionStringEncrypt\bin\Debug\Lucene.Net.xml
+D:\OnLineTest\ConnectionStringEncrypt\bin\Debug\DAL.xml
+D:\OnLineTest\ConnectionStringEncrypt\bin\Debug\Model.xml
+D:\OnLineTest\ConnectionStringEncrypt\bin\Debug\Modules.xml
+D:\OnLineTest\ConnectionStringEncrypt\bin\Debug\PanGu.Lucene.Analyzer.xml
+D:\OnLineTest\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.csprojAssemblyReference.cache
+D:\OnLineTest\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.csproj.CoreCompileInputs.cache
+D:\OnLineTest\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.csproj.CopyComplete

@@ -52,3 +52,14 @@ D:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DBUtility\bin\Debug\log4ne
 D:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
 D:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DBUtility\obj\Debug\DBUtility.dll
 D:\Users\yxshu\Documents\GitHub\OnLineTest\OnLineTest\DBUtility\obj\Debug\DBUtility.pdb
+D:\OnLineTest\OnLineTest\DBUtility\bin\Debug\DBUtility.XML
+D:\OnLineTest\OnLineTest\DBUtility\bin\Debug\DBUtility.dll
+D:\OnLineTest\OnLineTest\DBUtility\bin\Debug\DBUtility.pdb
+D:\OnLineTest\OnLineTest\DBUtility\bin\Debug\log4net.dll
+D:\OnLineTest\OnLineTest\DBUtility\bin\Debug\log4net.pdb
+D:\OnLineTest\OnLineTest\DBUtility\bin\Debug\log4net.xml
+D:\OnLineTest\OnLineTest\DBUtility\obj\Debug\DBUtility.csprojAssemblyReference.cache
+D:\OnLineTest\OnLineTest\DBUtility\obj\Debug\DBUtility.csproj.CoreCompileInputs.cache
+D:\OnLineTest\OnLineTest\DBUtility\obj\Debug\DBUtility.csproj.CopyComplete
+D:\OnLineTest\OnLineTest\DBUtility\obj\Debug\DBUtility.dll
+D:\OnLineTest\OnLineTest\DBUtility\obj\Debug\DBUtility.pdb
