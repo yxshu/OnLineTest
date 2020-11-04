@@ -264,3 +264,4 @@ D:\OnLineTest\OnLineTest\BLL\bin\Debug\Modules.xml
 D:\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
 D:\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 D:\OnLineTest\OnLineTest\BLL\obj\Debug\BLL.csproj.CopyComplete
+d:\OnLineTest\OnLineTest\BLL\bin\Debug\ConnectionStringEncrypt.exe.config

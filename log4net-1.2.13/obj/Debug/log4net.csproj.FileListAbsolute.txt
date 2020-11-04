@@ -33,3 +33,4 @@ D:\OnLineTest\build\bin\net\2.0\debug\log4net.xml
 D:\OnLineTest\log4net-1.2.13\obj\Debug\log4net.csproj.CoreCompileInputs.cache
 D:\OnLineTest\log4net-1.2.13\obj\Debug\log4net.dll
 D:\OnLineTest\log4net-1.2.13\obj\Debug\log4net.pdb
+d:\OnLineTest\log4net-1.2.13\obj\Debug\log4net.csprojAssemblyReference.cache

@@ -155,7 +155,7 @@
             难度系数ID int identity(1,1) primary key
             </summary>
         </member>
-        <!-- 对于成员“P:OnLineTest.Model.Difficulty.DifficultyRatio”忽略有格式错误的 XML 注释 -->
+        <!-- Badly formed XML comment ignored for member "P:OnLineTest.Model.Difficulty.DifficultyRatio" -->
         <member name="P:OnLineTest.Model.Difficulty.DifficultyDescrip">
             <summary>
             难度系数对应的描述 nvarchar(20) not null
@@ -911,6 +911,6 @@
             审核时间 datetime not null default getdate()
             </summary>
         </member>
-        <!-- 对于成员“M:Model.Pager.#ctor(System.Int32,System.Int32,System.Int32,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- Badly formed XML comment ignored for member "M:Model.Pager.#ctor(System.Int32,System.Int32,System.Int32,System.String)" -->
     </members>
 </doc>

@@ -230,3 +230,4 @@ D:\OnLineTest\ConnectionStringEncrypt\bin\Debug\PanGu.Lucene.Analyzer.xml
 D:\OnLineTest\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.csprojAssemblyReference.cache
 D:\OnLineTest\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.csproj.CoreCompileInputs.cache
 D:\OnLineTest\ConnectionStringEncrypt\obj\Debug\ConnectionStringEncrypt.csproj.CopyComplete
+d:\OnLineTest\ConnectionStringEncrypt\bin\Debug\ConnectionStringEncrypt.exe.config

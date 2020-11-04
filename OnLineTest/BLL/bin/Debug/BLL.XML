@@ -206,7 +206,7 @@
             分页获取数据列表
             </summary>
         </member>
-        <!-- 对于成员“M:OnLineTest.BLL.ChapterManager.getStructionChapterModel_by_TextBookId(System.Int32)”忽略有格式错误的 XML 注释 -->
+        <!-- Badly formed XML comment ignored for member "M:OnLineTest.BLL.ChapterManager.getStructionChapterModel_by_TextBookId(System.Int32)" -->
         <member name="M:OnLineTest.BLL.ChapterManager.getChapterChildren(OnLineTest.Model.Chapter,System.Collections.Generic.List{OnLineTest.Model.Chapter},System.Int32)">
             <summary>
             利用递归查询子节点
@@ -642,7 +642,7 @@
             <param name="dr">数据行</param>
             <returns>两个情况 没有值时返回null，否则返回一个字典</returns>
         </member>
-        <!-- 对于成员“M:OnLineTest.BLL.common.DataSetToList(System.Data.DataSet)”忽略有格式错误的 XML 注释 -->
+        <!-- Badly formed XML comment ignored for member "M:OnLineTest.BLL.common.DataSetToList(System.Data.DataSet)" -->
         <member name="T:OnLineTest.BLL.DifficultyManager">
             <summary>
             试题的难度系数实例
@@ -1370,7 +1370,7 @@
             是否存在该记录
             </summary>
         </member>
-        <!-- 对于成员“M:OnLineTest.BLL.PaperCodesManager.GetModelListBySubjectId(System.Int32)”忽略有格式错误的 XML 注释 -->
+        <!-- Badly formed XML comment ignored for member "M:OnLineTest.BLL.PaperCodesManager.GetModelListBySubjectId(System.Int32)" -->
         <member name="T:OnLineTest.BLL.PastExamPaperManager">
             <summary>
             历年真题信息实例(仅

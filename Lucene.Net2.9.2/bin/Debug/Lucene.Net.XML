@@ -16581,7 +16581,7 @@
             in order to work with Lucene 3.0.
             </summary>
         </member>
-        <!-- 对于成员“M:Lucene.Net.Search.Filter.Bits(Lucene.Net.Index.IndexReader)”忽略有格式错误的 XML 注释 -->
+        <!-- Badly formed XML comment ignored for member "M:Lucene.Net.Search.Filter.Bits(Lucene.Net.Index.IndexReader)" -->
         <member name="M:Lucene.Net.Search.Filter.GetDocIdSet(Lucene.Net.Index.IndexReader)">
             <summary>
               Creates a {@link DocIdSet} enumerating the documents that should be
@@ -16886,7 +16886,7 @@
         <member name="M:Lucene.Net.Search.Function.ByteFieldSource.#ctor(System.String,Lucene.Net.Search.ByteParser)">
             <summary> Create a cached byte field source with a specific string-to-byte parser. </summary>
         </member>
-        <!-- 对于成员“T:Lucene.Net.Search.Function.CustomScoreProvider”忽略有格式错误的 XML 注释 -->
+        <!-- Badly formed XML comment ignored for member "T:Lucene.Net.Search.Function.CustomScoreProvider" -->
         <member name="M:Lucene.Net.Search.Function.CustomScoreProvider.#ctor(Lucene.Net.Index.IndexReader)">
             <summary>
             Creates a new instance of the provider class for the given IndexReader.
@@ -16916,7 +16916,7 @@
             <param name="valSrcScores">scores of that doc by the ValueSourceQuery</param>
             <returns>custom score</returns>
         </member>
-        <!-- 对于成员“M:Lucene.Net.Search.Function.CustomScoreProvider.CustomScore(System.Int32,System.Single,System.Single)”忽略有格式错误的 XML 注释 -->
+        <!-- Badly formed XML comment ignored for member "M:Lucene.Net.Search.Function.CustomScoreProvider.CustomScore(System.Int32,System.Single,System.Single)" -->
         <member name="M:Lucene.Net.Search.Function.CustomScoreProvider.CustomExplain(System.Int32,Lucene.Net.Search.Explanation,Lucene.Net.Search.Explanation[])">
             <summary>
             Explain the custom score.
@@ -25904,7 +25904,7 @@
             ****
             </summary>
         </member>
-        <!-- 对于成员“M:Lucene.Net.Util.OpenBitSetIterator.Next”忽略有格式错误的 XML 注释 -->
+        <!-- Badly formed XML comment ignored for member "M:Lucene.Net.Util.OpenBitSetIterator.Next" -->
         <member name="M:Lucene.Net.Util.OpenBitSetIterator.SkipTo(System.Int32)">
             <deprecated> use {@link #Advance(int)} instead. 
             </deprecated>
@@ -26572,7 +26572,7 @@
         <member name="F:Lucene.Net.Util.Version.LUCENE_24">
             <summary>Match settings and bugs in Lucene's 2.3 release. </summary>
         </member>
-        <!-- 对于成员“F:Lucene.Net.Util.Version.LUCENE_29”忽略有格式错误的 XML 注释 -->
+        <!-- Badly formed XML comment ignored for member "F:Lucene.Net.Util.Version.LUCENE_29" -->
         <member name="T:IThreadRunnable">
             <summary>
             This interface should be implemented by any class whose instances are intended 
