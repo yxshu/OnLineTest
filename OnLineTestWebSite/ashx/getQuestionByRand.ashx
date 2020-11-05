@@ -15,20 +15,7 @@ public class getQuestionByRand : IHttpHandler
     {
         Question question = new Question();
         QuestionManager manager = new QuestionManager();
-        int questionidMAX = manager.GetMaxId();
-        bool isTrue = false;
-        do
-        {
-            question.QuestionId = new Random().Next(questionidMAX);
-            if (manager.Exists(question.QuestionId))
-            {
-                question = manager.GetModel(question.QuestionId);
-                if (question.IsVerified == true && question.IsDelte == false)
-                {
-                    isTrue = true;
-                }
-            }
-        } while (!isTrue);
+        question = manager.getQuestionbyRandom();
         context.Response.ContentType = "text/plain";
         context.Response.Write(new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(question));
     }

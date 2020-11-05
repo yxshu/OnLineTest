@@ -18,7 +18,6 @@ C:\Users\yxshu\Documents\GitHub\OnLineTest\Lucene.Net2.9.2\obj\Debug\Lucene.Net.
 D:\OnLineTest\Lucene.Net2.9.2\bin\Debug\Lucene.Net.XML
 D:\OnLineTest\Lucene.Net2.9.2\bin\Debug\Lucene.Net.dll
 D:\OnLineTest\Lucene.Net2.9.2\bin\Debug\Lucene.Net.pdb
-D:\OnLineTest\Lucene.Net2.9.2\obj\Debug\Lucene.Net.csprojAssemblyReference.cache
 D:\OnLineTest\Lucene.Net2.9.2\obj\Debug\Lucene.Net.csproj.CoreCompileInputs.cache
 D:\OnLineTest\Lucene.Net2.9.2\obj\Debug\Lucene.Net.dll
 D:\OnLineTest\Lucene.Net2.9.2\obj\Debug\Lucene.Net.pdb
