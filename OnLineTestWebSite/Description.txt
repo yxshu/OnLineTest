@@ -1,0 +1,3 @@
+﻿1、VS 用webdeploy 远程发布:https://blog.csdn.net/flyingshuai/article/details/84071348
+2、发布网站注意两个要点：1）应用程序池-托管模式-经典
+                         2）应用程序池-高级设置-启用32位应用程序-true
