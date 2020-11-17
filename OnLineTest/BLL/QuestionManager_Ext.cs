@@ -51,6 +51,56 @@ namespace OnLineTest.BLL
             return dic;
         }
         /// <summary>
+        /// 根据ID获取试题并实例化所有外链，并以对象的形式返回
+        /// </summary>
+        /// <param name="questionid">ID</param>
+        /// <returns>所以ID不为空的外链对象</returns>
+        public List<object> GetQuestionAndInstantiationModelById(int questionid)
+        {
+            System.Collections.Generic.List<object> list = new System.Collections.Generic.List<object>();
+            Question question = new Question();
+            Difficulty difficulty = new Difficulty();
+            Users users = new Users();
+            UserGroup userGroup = new UserGroup();
+            PaperCodes paperCodes = new PaperCodes();
+            Subject subject = new Subject();
+            TextBook textBook;
+            Chapter chapter;
+            PastExamPaper pastExamPaper;
+            QuestionManager manager = new QuestionManager();
+            question = manager.getQuestionbyRandom();
+            difficulty = new DifficultyManager().GetModel(question.DifficultyId);
+            users = new UsersManager().GetModel(question.UserId);
+            userGroup = new UserGroupManager().GetModel(users.UserGroupId);
+            paperCodes = new PaperCodesManager().GetModel(question.PaperCodeId);
+            subject = new SubjectManager().GetModel(paperCodes.SubjectId);
+            list.Add(question);
+            list.Add(difficulty);
+            list.Add(users);
+            list.Add(userGroup);
+            list.Add(paperCodes);
+            list.Add(subject);
+            if (question.TextBookId != null)
+            {
+                int TextBookId = (int)question.TextBookId;
+                textBook = new TextBookManager().GetModel(TextBookId);
+                list.Add(textBook);
+            }
+            if (question.ChapterId != null)
+            {
+                int ChapterId = (int)question.ChapterId;
+                chapter = new ChapterManager().GetModel(ChapterId);
+                list.Add(chapter);
+            }
+            if (question.PastExamPaperId != null)
+            {
+                int PastExamPaperId = (int)question.PastExamPaperId;
+                pastExamPaper = new PastExamPaperManager().GetModel(PastExamPaperId);
+                list.Add(pastExamPaper);
+            }
+            return list;
+        }
+        /// <summary>
         /// 利用事务更新试题的最终审核状态
         /// 其中一、更新Question表的状态
         ///     二、在Verify表中插入一条新的数据

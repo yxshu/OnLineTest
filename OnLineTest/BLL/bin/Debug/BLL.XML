@@ -1573,6 +1573,13 @@
             <param name="QuestionId">id</param>
             <returns>返回一个字典</returns>
         </member>
+        <member name="M:OnLineTest.BLL.QuestionManager.GetQuestionAndInstantiationModelById(System.Int32)">
+            <summary>
+            根据ID获取试题并实例化所有外链，并以对象的形式返回
+            </summary>
+            <param name="questionid">ID</param>
+            <returns>所以ID不为空的外链对象</returns>
+        </member>
         <member name="M:OnLineTest.BLL.QuestionManager.UpdataQuestionFinalVerifyByTransaction(System.Int32,System.Boolean,System.Int32)">
             <summary>
             利用事务更新试题的最终审核状态
