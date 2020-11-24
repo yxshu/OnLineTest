@@ -263,3 +263,9 @@
 2020-11-07 13:11:42,232 [1] FATAL [application_star] [(null)] - 系统启动成功。
 2020-11-07 13:25:34,995 [11] FATAL [application_end] [(null)] - 系统关闭。
 2020-11-07 13:25:43,320 [16] FATAL [application_star] [(null)] - 系统启动成功。
+2020-11-24 13:13:16,101 [1] FATAL [application_star] [(null)] - 系统启动成功。
+2020-11-24 13:16:01,464 [9] FATAL [application_end] [(null)] - 系统关闭。
+2020-11-24 13:24:12,846 [1] FATAL [application_star] [(null)] - 系统启动成功。
+2020-11-24 13:26:55,619 [18] FATAL [application_end] [(null)] - 系统关闭。
+2020-11-24 13:31:37,262 [1] FATAL [application_star] [(null)] - 系统启动成功。
+2020-11-24 13:43:36,890 [20] FATAL [application_end] [(null)] - 系统关闭。

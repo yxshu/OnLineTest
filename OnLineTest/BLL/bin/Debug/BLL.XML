@@ -1623,7 +1623,7 @@
             <param name="list">多个对象的列表</param>
             <returns>成功返true,不成功返回false</returns>
         </member>
-        <member name="M:OnLineTest.BLL.QuestionManager.getQuestionbyRandom">
+        <member name="M:OnLineTest.BLL.QuestionManager.getQuestionbyRandom(System.Int32)">
             <summary>
             随机产生一个试题
             </summary>

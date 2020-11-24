@@ -68,7 +68,7 @@ namespace OnLineTest.BLL
             Chapter chapter;
             PastExamPaper pastExamPaper;
             QuestionManager manager = new QuestionManager();
-            question = manager.getQuestionbyRandom();
+            question = manager.GetModel(questionid);
             difficulty = new DifficultyManager().GetModel(question.DifficultyId);
             users = new UsersManager().GetModel(question.UserId);
             userGroup = new UserGroupManager().GetModel(users.UserGroupId);
@@ -201,10 +201,15 @@ namespace OnLineTest.BLL
         /// 随机产生一个试题
         /// </summary>
         /// <returns></returns>
-        public Question getQuestionbyRandom()
+        public Question getQuestionbyRandom(int userid)
         {
             int max = this.GetMaxId();
+            LogPractice logPractice = new LogPractice();
+            LogPracticeManager logPracticeManager = new LogPracticeManager();
             Question question = this.GetModel(new Random().Next(max));
+            logPractice.userId = userid;
+            logPractice.QuestionId = question.QuestionId;
+            logPracticeManager.Add(logPractice);
             return question;
         }
         public OnLineTest.Model.Question GetModel(string strWhere)
