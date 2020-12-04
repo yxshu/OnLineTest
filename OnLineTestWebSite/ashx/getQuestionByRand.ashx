@@ -18,8 +18,7 @@ public class getQuestionByRand : IHttpHandler, IRequiresSessionState
         Users user = context.Session["User"] == null ? null : (Users)context.Session["User"];
         if (user == null)
         {
-            context.Response.Write("请先登录……");
-            context.Response.Flush();
+            common.ServerTransfer("error.aspx", 1006, "你无权访问此内容。", "getQuestionByRand.ashx");
             return;
         }
         QuestionManager questionManager = new QuestionManager();

@@ -240,27 +240,60 @@ namespace OnLineTest.BLL
         {
             System.Web.HttpContext.Current.Response.Redirect(RootPath + "\\" + TransferPage + "?code=" + ErrorCode + "&exception=" + ex.Message.Replace("\n", "") + "&SecondTransferPage=" + SecondTransferPage);
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="TransferPage">跳转的页面，输入相对路径"~\\TransferPage"</param>
+        /// <param name="ErrorCode">错误码，可以为NULL</param>
+        /// <param name="errorMessage">异常信息</param>
+        /// <param name="SecondTransferPage">要求二次跳转的页面</param>
         public static void ServerTransfer(string TransferPage, int? ErrorCode, string errorMessage, string SecondTransferPage)
         {
             System.Web.HttpContext.Current.Response.Redirect(RootPath + "\\" + TransferPage + "?code=" + ErrorCode + "&exception=" + errorMessage + "&SecondTransferPage=" + SecondTransferPage);
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="TransferPage">跳转的页面，输入相对路径"~\\TransferPage"</param>
+        /// <param name="ErrorCode">误码，可以为NULL</param>
+        /// <param name="errorMessage">异常信息</param>
+        /// <param name="page"></param>
+        /// <param name="SecondTransferPage">要求二次跳转的页面</param>
         public static void ServerTransfer(string TransferPage, int? ErrorCode, string errorMessage, Page page, string SecondTransferPage)
         {
             System.Web.HttpContext.Current.Response.Redirect(RootPath + "\\" + TransferPage + "?code=" + ErrorCode + "&exception=" + errorMessage + "&page=" + page.Page.Title + "&SecondTransferPage=" + SecondTransferPage);
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="TransferPage">跳转的页面，输入相对路径"~\\TransferPage"</param>
+        /// <param name="ErrorCode">误码，可以为NULL</param>
+        /// <param name="ex">异常</param>
+        /// <param name="page"></param>
+        /// <param name="SecondTransferPage">要求二次跳转的页面</param>
         public static void ServerTransfer(string TransferPage, int? ErrorCode, Exception ex, Page page, string SecondTransferPage)
         {
             System.Web.HttpContext.Current.Response.Redirect(RootPath + "\\" + TransferPage + "?code=" + ErrorCode + "&exception=" + ex.Message.Replace("\n", "") + "&page=" + page.Page.Title + "&SecondTransferPage=" + SecondTransferPage);
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="TransferPage">跳转的页面，输入相对路径"~\\TransferPage"</param>
+        /// <param name="ErrorCode">误码，可以为NULL</param>
+        /// <param name="ex">异常</param>
+        /// <param name="errorMessage">异常信息</param>
+        /// <param name="SecondTransferPage">要求二次跳转的页面</param>
         public static void ServerTransfer(string TransferPage, int? ErrorCode, Exception ex, string errorMessage, string SecondTransferPage)
         {
             System.Web.HttpContext.Current.Response.Redirect(RootPath + "\\" + TransferPage + "?code=" + ErrorCode + "&exception=" + ex.Message.Replace("\n", "") + "&errormessage=" + errorMessage + "&SecondTransferPage=" + SecondTransferPage);
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="TransferPage">跳转的页面，输入相对路径"~\\TransferPage"</param>
+        /// <param name="ErrorCode">误码，可以为NULL</param>
+        /// <param name="page"></param>
+        /// <param name="SecondTransferPage">要求二次跳转的页面</param>
         public static void ServerTransfer(string TransferPage, int? ErrorCode, Page page, string SecondTransferPage)
         {
             System.Web.HttpContext.Current.Response.Redirect(RootPath + "\\" + TransferPage + "?code=" + ErrorCode + "&page=" + page.Page.Title + "&SecondTransferPage=" + SecondTransferPage);
@@ -991,6 +1024,11 @@ namespace OnLineTest.BLL
         #endregion
 
         #region 获取当前用户
+        /// <summary>
+        /// 获取当前用户
+        /// </summary>
+        /// <param name="context"></param>
+        /// <returns></returns>
         public static Users GetCurrnetUser(HttpContext context)
         {
             Users user = new Users();

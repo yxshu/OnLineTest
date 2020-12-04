@@ -378,6 +378,16 @@
             <param name="userid"></param>
             <returns></returns>
         </member>
+        <member name="T:OnLineTest.BLL.common">
+            <summary>
+            通用类
+            </summary>
+        </member>
+        <member name="F:OnLineTest.BLL.common.RootPath">
+            <summary>
+            系统根目录
+            </summary>
+        </member>
         <member name="M:OnLineTest.BLL.common.SetCacheBySql(System.String,System.Object,System.Web.Caching.CacheDependency)">
             <summary>
             设置依赖SQL数据库缓存
@@ -433,6 +443,54 @@
             <param name="ErrorCode">错误码，可以为NULL</param>
             <param name="ex">异常，可以为null</param>
             <param name="SecondTransferPage">要求二次跳的页面</param>
+        </member>
+        <member name="M:OnLineTest.BLL.common.ServerTransfer(System.String,System.Nullable{System.Int32},System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="TransferPage">跳转的页面，输入相对路径"~\\TransferPage"</param>
+            <param name="ErrorCode">错误码，可以为NULL</param>
+            <param name="errorMessage">异常信息</param>
+            <param name="SecondTransferPage">要求二次跳转的页面</param>
+        </member>
+        <member name="M:OnLineTest.BLL.common.ServerTransfer(System.String,System.Nullable{System.Int32},System.String,System.Web.UI.Page,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="TransferPage">跳转的页面，输入相对路径"~\\TransferPage"</param>
+            <param name="ErrorCode">误码，可以为NULL</param>
+            <param name="errorMessage">异常信息</param>
+            <param name="page"></param>
+            <param name="SecondTransferPage">要求二次跳转的页面</param>
+        </member>
+        <member name="M:OnLineTest.BLL.common.ServerTransfer(System.String,System.Nullable{System.Int32},System.Exception,System.Web.UI.Page,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="TransferPage">跳转的页面，输入相对路径"~\\TransferPage"</param>
+            <param name="ErrorCode">误码，可以为NULL</param>
+            <param name="ex">异常</param>
+            <param name="page"></param>
+            <param name="SecondTransferPage">要求二次跳转的页面</param>
+        </member>
+        <member name="M:OnLineTest.BLL.common.ServerTransfer(System.String,System.Nullable{System.Int32},System.Exception,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="TransferPage">跳转的页面，输入相对路径"~\\TransferPage"</param>
+            <param name="ErrorCode">误码，可以为NULL</param>
+            <param name="ex">异常</param>
+            <param name="errorMessage">异常信息</param>
+            <param name="SecondTransferPage">要求二次跳转的页面</param>
+        </member>
+        <member name="M:OnLineTest.BLL.common.ServerTransfer(System.String,System.Nullable{System.Int32},System.Web.UI.Page,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="TransferPage">跳转的页面，输入相对路径"~\\TransferPage"</param>
+            <param name="ErrorCode">误码，可以为NULL</param>
+            <param name="page"></param>
+            <param name="SecondTransferPage">要求二次跳转的页面</param>
         </member>
         <member name="M:OnLineTest.BLL.common.ShowMessageBox(System.Web.UI.Page,System.String)">
             <summary>
@@ -634,6 +692,13 @@
             通过n次(参数)随机的方式从数据库中选一道试题，如果三次没有成功，则返回null
             </summary>
             <returns>null或者Question实例</returns>
+        </member>
+        <member name="M:OnLineTest.BLL.common.GetCurrnetUser(System.Web.HttpContext)">
+            <summary>
+            获取当前用户
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
         </member>
         <member name="M:OnLineTest.BLL.common.DataRowTODictionary(System.Data.DataRow)">
             <summary>

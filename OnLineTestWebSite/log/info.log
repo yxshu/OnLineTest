@@ -9130,3 +9130,9 @@
 2020-11-24 13:31:53,255 [16] INFO  [Login] [(null)] - 余项树登录成功。
 2020-11-24 13:37:36,500 [27] INFO  [LoginOut] [(null)] - yxshu成功退出。
 2020-11-24 13:37:36,516 [16] INFO  [OnLineTest.BLL.common] [(null)] - yxshu成功退出。
+2020-12-04 12:46:49,709 [5] INFO  [Login] [(null)] - 余项树登录成功。
+2020-12-04 12:52:09,584 [6] INFO  [Login] [(null)] - 余项树登录成功。
+2020-12-04 12:54:57,548 [10] INFO  [Login] [(null)] - 余项树Teacher登录成功。
+2020-12-04 13:02:55,540 [28] INFO  [OnLineTest.BLL.common] [(null)] - teacher成功退出。
+2020-12-04 13:02:55,544 [28] INFO  [OnLineTest.BLL.common] [(null)] - yxshu成功退出。
+2020-12-04 13:04:28,245 [22] INFO  [Login] [(null)] - 余项树登录成功。
