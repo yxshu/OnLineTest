@@ -25,8 +25,14 @@ using System.Data;
 
 namespace OnLineTest.BLL
 {
+    /// <summary>
+    /// 通用类
+    /// </summary>
     public static class common
     {
+        /// <summary>
+        /// 系统根目录
+        /// </summary>
         public static string RootPath = System.Web.HttpContext.Current.Request.ApplicationPath;
 
         #region 设置依赖SQL数据库缓存
