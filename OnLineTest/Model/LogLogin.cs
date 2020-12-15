@@ -76,7 +76,7 @@ namespace OnLineTest.Model
 			get{return _logloginwebserverclient;}
 		}
 		/// <summary>
-        /// varchar(100) null-----备注,0成功登录,1成功退出
+        /// varchar(100) null-----备注,0成功登录,1成功退出,2登录超时，系统退出
 		/// </summary>
 		public string Remark
 		{
