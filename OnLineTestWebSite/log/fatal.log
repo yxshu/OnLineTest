@@ -273,3 +273,4 @@
 2020-12-04 12:51:35,548 [1] FATAL [application_star] [(null)] - 系统启动成功。
 2020-12-04 13:02:55,545 [28] FATAL [application_end] [(null)] - 系统关闭。
 2020-12-04 13:03:10,893 [1] FATAL [application_star] [(null)] - 系统启动成功。
+2020-12-04 13:07:26,499 [10] FATAL [application_end] [(null)] - 系统关闭。

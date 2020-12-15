@@ -54,7 +54,7 @@
                         <input id="btnsubmit" type="submit" value="登  录" />
                     </div>
                     <!--底部注册--->
-                    <div id="last"><a href="register.html" id="register">免费注册</a><span id="lianxigly"><a href="#">账户激活</a><a href="#">联系管理员</a></span></div>
+                    <div id="last"><a href="register.aspx" id="register">免费注册</a><span id="lianxigly"><a href="#">账户激活</a><a href="#">联系管理员</a></span></div>
                 </div>
 
                 <!--这是页脚部分--->
