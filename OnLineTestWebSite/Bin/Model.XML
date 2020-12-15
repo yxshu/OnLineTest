@@ -228,7 +228,7 @@
         </member>
         <member name="P:OnLineTest.Model.LogLogin.Remark">
             <summary>
-            varchar(100) null-----备注,0成功登录,1成功退出
+            varchar(100) null-----备注,0成功登录,1成功退出,2登录超时，系统退出
             </summary>
         </member>
         <member name="T:OnLineTest.Model.LogPractice">
